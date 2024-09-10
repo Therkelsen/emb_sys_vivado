@@ -1,0 +1,180 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x5F9A63BA0A474C95",
+      "device": "xc7k70tfbv676-1",
+      "gen_directory": "../../../../project_1.gen/sources_1/bd/pwm",
+      "name": "pwm",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "comparator_0": "",
+      "counter_0": ""
+    },
+    "ports": {
+      "sysclk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "pwm_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "pwm": {
+        "direction": "O"
+      },
+      "en_0": {
+        "direction": "I"
+      },
+      "b_0": {
+        "direction": "I",
+        "left": "25",
+        "right": "0"
+      }
+    },
+    "components": {
+      "comparator_0": {
+        "vlnv": "xilinx.com:module_ref:comparator:1.0",
+        "xci_name": "pwm_comparator_0_0",
+        "xci_path": "ip/pwm_comparator_0_0/pwm_comparator_0_0.xci",
+        "inst_hier_path": "comparator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "comparator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I",
+            "left": "25",
+            "right": "0"
+          },
+          "b": {
+            "direction": "I",
+            "left": "25",
+            "right": "0"
+          },
+          "c": {
+            "direction": "O"
+          }
+        }
+      },
+      "counter_0": {
+        "vlnv": "xilinx.com:module_ref:counter:1.0",
+        "xci_name": "pwm_counter_0_0",
+        "xci_path": "ip/pwm_counter_0_0/pwm_counter_0_0.xci",
+        "inst_hier_path": "counter_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "counter",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "rst",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "pwm_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "rst": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "en": {
+            "direction": "I"
+          },
+          "cnt": {
+            "direction": "O",
+            "left": "25",
+            "right": "0"
+          }
+        }
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "sysclk",
+          "counter_0/clk"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst_0",
+          "counter_0/rst"
+        ]
+      },
+      "comparator_0_c": {
+        "ports": [
+          "comparator_0/c",
+          "pwm"
+        ]
+      },
+      "counter_0_cnt": {
+        "ports": [
+          "counter_0/cnt",
+          "comparator_0/a"
+        ]
+      },
+      "en_0_1": {
+        "ports": [
+          "en_0",
+          "counter_0/en"
+        ]
+      },
+      "b_0_1": {
+        "ports": [
+          "b_0",
+          "comparator_0/b"
+        ]
+      }
+    }
+  }
+}

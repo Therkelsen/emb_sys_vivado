@@ -1,0 +1,4 @@
+pwm_comparator_0_0.v,verilog,xil_defaultlib,../../../bd/pwm/ip/pwm_comparator_0_0/sim/pwm_comparator_0_0.v,
+pwm_counter_0_0.v,verilog,xil_defaultlib,../../../bd/pwm/ip/pwm_counter_0_0/sim/pwm_counter_0_0.v,
+pwm.v,verilog,xil_defaultlib,../../../bd/pwm/sim/pwm.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
