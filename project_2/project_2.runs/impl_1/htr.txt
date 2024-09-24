@@ -6,4 +6,4 @@
 # Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 #
 
-vivado -log UART_to_PWM_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source UART_to_PWM_wrapper.tcl -notrace
+vivado -log UART2PWM_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source UART2PWM_wrapper.tcl -notrace

@@ -29,7 +29,7 @@ eval( EAInclude(ISEJScriptLib) );
 // pre-commands:
 ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
-         "-log UART_to_PWM_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source UART_to_PWM_wrapper.tcl -notrace" );
+         "-log UART2PWM_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source UART2PWM_wrapper.tcl -notrace" );
 
 
 

@@ -36,4 +36,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log UART_to_PWM_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_to_PWM_wrapper.tcl
+EAStep vivado -log UART2PWM_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART2PWM_wrapper.tcl

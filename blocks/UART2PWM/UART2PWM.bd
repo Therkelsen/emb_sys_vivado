@@ -1,0 +1,436 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x528B6B01BCC2BD07",
+      "device": "xc7z020clg400-1",
+      "name": "UART2PWM",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "LUT_0": "",
+      "UART": {
+        "clk_divider_0": "",
+        "rx_mod_0": "",
+        "xl_slice_0": ""
+      },
+      "PWM": {
+        "comparator_0": "",
+        "counter_0": ""
+      }
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "rst_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "UART2PWM_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "125000000"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "en_0": {
+        "direction": "I"
+      },
+      "LED_0": {
+        "direction": "O"
+      },
+      "rst_0": {
+        "direction": "I"
+      },
+      "sin_0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "LUT_0": {
+        "vlnv": "xilinx.com:module_ref:LUT:1.0",
+        "xci_name": "UART2PWM_LUT_0_0",
+        "xci_path": "ip/UART2PWM_LUT_0_0/UART2PWM_LUT_0_0.xci",
+        "inst_hier_path": "LUT_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "LUT",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "percent": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "bits": {
+            "direction": "O",
+            "left": "26",
+            "right": "0"
+          }
+        }
+      },
+      "UART": {
+        "ports": {
+          "clk_0": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst_0": {
+            "direction": "I"
+          },
+          "sin": {
+            "direction": "I"
+          },
+          "Dout": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          }
+        },
+        "components": {
+          "clk_divider_0": {
+            "vlnv": "xilinx.com:module_ref:clk_divider:1.0",
+            "xci_name": "UART2PWM_clk_divider_0_0",
+            "xci_path": "ip/UART2PWM_clk_divider_0_0/UART2PWM_clk_divider_0_0.xci",
+            "inst_hier_path": "UART/clk_divider_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "clk_divider",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "clk": {
+                "type": "clk",
+                "direction": "I",
+                "parameters": {
+                  "ASSOCIATED_RESET": {
+                    "value": "rst",
+                    "value_src": "constant"
+                  },
+                  "FREQ_HZ": {
+                    "value": "125000000",
+                    "value_src": "user_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "UART2PWM_clk_0",
+                    "value_src": "default_prop"
+                  }
+                }
+              },
+              "rst": {
+                "type": "rst",
+                "direction": "I"
+              },
+              "clk_div": {
+                "direction": "O"
+              }
+            }
+          },
+          "rx_mod_0": {
+            "vlnv": "xilinx.com:module_ref:rx_mod:1.0",
+            "xci_name": "UART2PWM_rx_mod_0_0",
+            "xci_path": "ip/UART2PWM_rx_mod_0_0/UART2PWM_rx_mod_0_0.xci",
+            "inst_hier_path": "UART/rx_mod_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "rx_mod",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "clk": {
+                "type": "clk",
+                "direction": "I",
+                "parameters": {
+                  "ASSOCIATED_RESET": {
+                    "value": "rst",
+                    "value_src": "constant"
+                  }
+                }
+              },
+              "rst": {
+                "type": "rst",
+                "direction": "I"
+              },
+              "sin": {
+                "direction": "I"
+              },
+              "data_out": {
+                "direction": "O",
+                "left": "7",
+                "right": "0"
+              },
+              "intr": {
+                "type": "intr",
+                "direction": "O",
+                "parameters": {
+                  "SENSITIVITY": {
+                    "value": "LEVEL_HIGH",
+                    "value_src": "constant"
+                  }
+                }
+              }
+            }
+          },
+          "xl_slice_0": {
+            "vlnv": "xilinx.com:module_ref:xl_slice:1.0",
+            "xci_name": "UART2PWM_xl_slice_0_0",
+            "xci_path": "ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci",
+            "inst_hier_path": "UART/xl_slice_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xl_slice",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "Din": {
+                "direction": "I",
+                "left": "7",
+                "right": "0"
+              },
+              "Dout": {
+                "direction": "O",
+                "left": "3",
+                "right": "0"
+              }
+            }
+          }
+        },
+        "nets": {
+          "clk_divider_0_clk_div": {
+            "ports": [
+              "clk_divider_0/clk_div",
+              "rx_mod_0/clk"
+            ]
+          },
+          "rx_mod_0_data_out": {
+            "ports": [
+              "rx_mod_0/data_out",
+              "xl_slice_0/Din"
+            ]
+          },
+          "clk_0_1": {
+            "ports": [
+              "clk_0",
+              "clk_divider_0/clk"
+            ]
+          },
+          "rst_0_1": {
+            "ports": [
+              "rst_0",
+              "rx_mod_0/rst",
+              "clk_divider_0/rst"
+            ]
+          },
+          "sin_1": {
+            "ports": [
+              "sin",
+              "rx_mod_0/sin"
+            ]
+          },
+          "xl_slice_0_Dout": {
+            "ports": [
+              "xl_slice_0/Dout",
+              "Dout"
+            ]
+          }
+        }
+      },
+      "PWM": {
+        "ports": {
+          "clk_0": {
+            "type": "clk",
+            "direction": "I"
+          },
+          "rst_0": {
+            "direction": "I"
+          },
+          "en_0": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I",
+            "left": "26",
+            "right": "0"
+          },
+          "LED_0": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "comparator_0": {
+            "vlnv": "xilinx.com:module_ref:comparator:1.0",
+            "xci_name": "UART2PWM_comparator_0_0",
+            "xci_path": "ip/UART2PWM_comparator_0_0/UART2PWM_comparator_0_0.xci",
+            "inst_hier_path": "PWM/comparator_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "comparator",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "a": {
+                "direction": "I",
+                "left": "26",
+                "right": "0"
+              },
+              "b": {
+                "direction": "I",
+                "left": "26",
+                "right": "0"
+              },
+              "c": {
+                "direction": "O"
+              }
+            }
+          },
+          "counter_0": {
+            "vlnv": "xilinx.com:module_ref:counter:1.0",
+            "xci_name": "UART2PWM_counter_0_0",
+            "xci_path": "ip/UART2PWM_counter_0_0/UART2PWM_counter_0_0.xci",
+            "inst_hier_path": "PWM/counter_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "counter",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "clk": {
+                "type": "clk",
+                "direction": "I",
+                "parameters": {
+                  "ASSOCIATED_RESET": {
+                    "value": "rst",
+                    "value_src": "constant"
+                  },
+                  "FREQ_HZ": {
+                    "value": "125000000",
+                    "value_src": "user_prop"
+                  },
+                  "CLK_DOMAIN": {
+                    "value": "UART2PWM_clk_0",
+                    "value_src": "default_prop"
+                  }
+                }
+              },
+              "rst": {
+                "type": "rst",
+                "direction": "I"
+              },
+              "en": {
+                "direction": "I"
+              },
+              "cnt": {
+                "direction": "O",
+                "left": "26",
+                "right": "0"
+              }
+            }
+          }
+        },
+        "nets": {
+          "counter_0_cnt": {
+            "ports": [
+              "counter_0/cnt",
+              "comparator_0/a"
+            ]
+          },
+          "clk_0_1": {
+            "ports": [
+              "clk_0",
+              "counter_0/clk"
+            ]
+          },
+          "rst_0_1": {
+            "ports": [
+              "rst_0",
+              "counter_0/rst"
+            ]
+          },
+          "en_0_1": {
+            "ports": [
+              "en_0",
+              "counter_0/en"
+            ]
+          },
+          "LUT_0_bits": {
+            "ports": [
+              "b",
+              "comparator_0/b"
+            ]
+          },
+          "comparator_0_c": {
+            "ports": [
+              "comparator_0/c",
+              "LED_0"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "xl_slice_0_Dout": {
+        "ports": [
+          "UART/Dout",
+          "LUT_0/percent"
+        ]
+      },
+      "LUT_0_bits": {
+        "ports": [
+          "LUT_0/bits",
+          "PWM/b"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "UART/clk_0",
+          "PWM/clk_0"
+        ]
+      },
+      "en_0_1": {
+        "ports": [
+          "en_0",
+          "PWM/en_0"
+        ]
+      },
+      "comparator_0_c": {
+        "ports": [
+          "PWM/LED_0",
+          "LED_0"
+        ]
+      },
+      "rst_0_1": {
+        "ports": [
+          "rst_0",
+          "UART/rst_0",
+          "PWM/rst_0"
+        ]
+      },
+      "sin_1": {
+        "ports": [
+          "sin_0",
+          "UART/sin"
+        ]
+      }
+    }
+  }
+}

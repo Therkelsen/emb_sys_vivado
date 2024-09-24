@@ -1,0 +1,48 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.546408",
+   "Default View_TopLeft":"-104,-481",
+   "ExpandedHierarchyInLayout":"/UART|/PWM",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port clk_0 -pg 1 -lvl 0 -x -20 -y 40 -defaultsOSRD
+preplace port en_0 -pg 1 -lvl 0 -x -20 -y -180 -defaultsOSRD
+preplace port LED_0 -pg 1 -lvl 6 -x 2280 -y -120 -defaultsOSRD
+preplace port rst_0 -pg 1 -lvl 0 -x -20 -y 60 -defaultsOSRD
+preplace port sin_0 -pg 1 -lvl 0 -x -20 -y 140 -defaultsOSRD
+preplace inst LUT_0 -pg 1 -lvl 4 -x 1511 -y 110 -defaultsOSRD
+preplace inst UART -pg 1 -lvl 3 -x 590 -y 112 -defaultsOSRD
+preplace inst PWM -pg 1 -lvl 5 -x 1810 -y -118 -defaultsOSRD
+preplace inst UART|clk_divider_0 -pg 1 -lvl 1 -x 650 -y 132 -defaultsOSRD
+preplace inst UART|rx_mod_0 -pg 1 -lvl 2 -x 870 -y 202 -defaultsOSRD
+preplace inst UART|xl_slice_0 -pg 1 -lvl 3 -x 1120 -y 192 -defaultsOSRD
+preplace inst PWM|comparator_0 -pg 1 -lvl 2 -x 2070 -y -88 -defaultsOSRD
+preplace inst PWM|counter_0 -pg 1 -lvl 1 -x 1880 -y -98 -defaultsOSRD
+preplace netloc xl_slice_0_Dout 1 3 1 1370 110n
+preplace netloc LUT_0_bits 1 4 1 1650 -18n
+preplace netloc clk_0_1 1 0 5 N 40 N 40 90 -118 N -118 N
+preplace netloc en_0_1 1 0 5 NJ -180 NJ -180 NJ -180 N -180 1650
+preplace netloc comparator_0_c 1 5 1 2260 -120n
+preplace netloc rst_0_1 1 0 5 N 60 N 60 100 -98 N -98 N
+preplace netloc sin_1 1 0 3 NJ 140 N 140 90
+preplace netloc UART|clk_divider_0_clk_div 1 1 1 750 132n
+preplace netloc UART|rx_mod_0_data_out 1 2 1 NJ 192
+preplace netloc UART|clk_0_1 1 0 1 N 122
+preplace netloc UART|rst_0_1 1 0 2 550 202 N
+preplace netloc UART|sin_1 1 0 2 NJ 222 N
+preplace netloc UART|xl_slice_0_Dout 1 3 1 NJ 192
+preplace netloc PWM|counter_0_cnt 1 1 1 N -98
+preplace netloc PWM|clk_0_1 1 0 1 N -118
+preplace netloc PWM|rst_0_1 1 0 1 N -98
+preplace netloc PWM|en_0_1 1 0 1 N -78
+preplace netloc PWM|LUT_0_bits 1 0 2 NJ -18 1980
+preplace netloc PWM|comparator_0_c 1 2 1 N -88
+levelinfo -pg 1 -20 20 70 590 1511 1810 2280
+levelinfo -hier UART * 650 870 1120 *
+levelinfo -hier PWM * 1880 2070 *
+pagesize -pg 1 -db -bbox -sgen -110 -230 2380 310
+pagesize -hier UART -db -bbox -sgen 520 62 1270 282
+pagesize -hier PWM -db -bbox -sgen 1750 -178 2190 -8
+"
+}
+
