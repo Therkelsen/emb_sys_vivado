@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"UART_to_PWM": {
+			"proto_instances": {
+			}
+		}
+	}
+}

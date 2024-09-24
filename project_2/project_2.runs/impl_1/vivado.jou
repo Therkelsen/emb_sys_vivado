@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Sep 24 15:18:44 2024
+# Process ID: 169171
+# Current directory: /home/therk/emb_sys_vivado/project_2/project_2.runs/impl_1
+# Command line: vivado -log UART_to_PWM_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source UART_to_PWM_wrapper.tcl -notrace
+# Log file: /home/therk/emb_sys_vivado/project_2/project_2.runs/impl_1/UART_to_PWM_wrapper.vdi
+# Journal file: /home/therk/emb_sys_vivado/project_2/project_2.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source UART_to_PWM_wrapper.tcl -notrace
