@@ -11,8 +11,8 @@
       "validated": "true"
     },
     "design_tree": {
-      "comparator_0": "",
-      "counter_0": ""
+      "counter_0": "",
+      "comparator_0": ""
     },
     "ports": {
       "sysclk": {
@@ -72,32 +72,6 @@
       }
     },
     "components": {
-      "comparator_0": {
-        "vlnv": "xilinx.com:module_ref:comparator:1.0",
-        "xci_name": "pwm_comparator_0_0",
-        "xci_path": "ip/pwm_comparator_0_0/pwm_comparator_0_0.xci",
-        "inst_hier_path": "comparator_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "comparator",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "a": {
-            "direction": "I",
-            "left": "25",
-            "right": "0"
-          },
-          "b": {
-            "direction": "I",
-            "left": "25",
-            "right": "0"
-          },
-          "c": {
-            "direction": "O"
-          }
-        }
-      },
       "counter_0": {
         "vlnv": "xilinx.com:module_ref:counter:1.0",
         "xci_name": "pwm_counter_0_0",
@@ -134,6 +108,32 @@
             "direction": "O",
             "left": "25",
             "right": "0"
+          }
+        }
+      },
+      "comparator_0": {
+        "vlnv": "xilinx.com:module_ref:comparator:1.0",
+        "xci_name": "pwm_comparator_0_0",
+        "xci_path": "ip/pwm_comparator_0_0/pwm_comparator_0_0.xci",
+        "inst_hier_path": "comparator_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "comparator",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I",
+            "left": "25",
+            "right": "0"
+          },
+          "b": {
+            "direction": "I",
+            "left": "25",
+            "right": "0"
+          },
+          "c": {
+            "direction": "O"
           }
         }
       }

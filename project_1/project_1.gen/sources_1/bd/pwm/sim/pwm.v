@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-//Date        : Tue Sep 10 15:46:11 2024
+//Date        : Tue Sep 24 12:52:11 2024
 //Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 //Command     : generate_target pwm.bd
 //Design      : pwm
