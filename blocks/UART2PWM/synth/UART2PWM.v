@@ -1,7 +1,7 @@
 //Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-//Date        : Tue Sep 24 16:06:47 2024
+//Date        : Thu Oct  3 08:46:43 2024
 //Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 //Command     : generate_target UART2PWM.bd
 //Design      : UART2PWM
@@ -39,7 +39,7 @@ module PWM_imp_19ZJ9CV
         .c(comparator_0_c));
   UART2PWM_counter_0_0 counter_0
        (.clk(clk_0_1),
-        .cnt(counter_0_cnt),
+        .count(counter_0_cnt),
         .en(en_0_1),
         .rst(rst_0_1));
 endmodule

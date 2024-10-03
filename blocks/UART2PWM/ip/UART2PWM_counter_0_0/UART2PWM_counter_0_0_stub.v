@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-// Date        : Tue Sep 24 16:04:30 2024
+// Date        : Thu Oct  3 08:47:21 2024
 // Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 // Command     : write_verilog -force -mode synth_stub
 //               /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_counter_0_0/UART2PWM_counter_0_0_stub.v
@@ -14,10 +14,10 @@
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
 (* X_CORE_INFO = "counter,Vivado 2020.2" *)
-module UART2PWM_counter_0_0(clk, rst, en, cnt)
-/* synthesis syn_black_box black_box_pad_pin="clk,rst,en,cnt[26:0]" */;
+module UART2PWM_counter_0_0(en, clk, rst, count)
+/* synthesis syn_black_box black_box_pad_pin="en,clk,rst,count[26:0]" */;
+  input en;
   input clk;
   input rst;
-  input en;
-  output [26:0]cnt;
+  output [26:0]count;
 endmodule

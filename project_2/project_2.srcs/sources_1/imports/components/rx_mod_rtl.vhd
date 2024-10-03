@@ -39,18 +39,18 @@ ARCHITECTURE rtl OF rx_mod IS
 	  				rxreg <= (others => '1');
 	  				intr <= '0';
 	  				rxin <= '1';
-					start_flag<='0';
+					start_flag <= '0';
 				elsif (rising_edge(clk)) then
-					rxin<=sin;
+					rxin <= sin;
 	  				if (rxmt = '1' and rxin = '0') then
 						count <= (others => '0');
 						rxmt <= '0';
 						rxreg <= (others => '1');
-						start_flag<='0';
-	  				elsif (count = 7 and rxmt = '0' and rxin = '0' and start_flag='0') then
+						start_flag <= '0';
+	  				elsif (count = 7 and rxmt = '0' and rxin = '0' and start_flag = '0') then
 	    				rxreg <= rxin & rxreg(9 downto 1);
 						count <= (others => '0');
-						start_flag<='1';
+						start_flag <= '1';
 					elsif (count = 15 and rxmt = '0') then
 	    				rxreg <= rxin & rxreg(9 downto 1);
 						count <= count + 1;

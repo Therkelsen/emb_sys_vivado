@@ -1,0 +1,24 @@
+09:10:30 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/project_2/temp_xsdb_launch_script.tcl
+09:10:31 INFO  : Registering command handlers for Vitis TCF services
+09:10:32 INFO  : Platform repository initialization has completed.
+09:10:32 INFO  : XSCT server has started successfully.
+09:10:33 INFO  : Successfully done setting XSCT server connection channel  
+09:10:33 INFO  : plnx-install-location is set to ''
+09:10:33 INFO  : Successfully done query RDI_DATADIR 
+09:10:33 INFO  : Successfully done setting workspace for the tool. 
+09:44:00 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/project_2/temp_xsdb_launch_script.tcl
+09:44:01 INFO  : Registering command handlers for Vitis TCF services
+09:44:02 INFO  : XSCT server has started successfully.
+09:44:02 INFO  : plnx-install-location is set to ''
+09:44:03 INFO  : Successfully done setting XSCT server connection channel  
+09:44:03 INFO  : Successfully done query RDI_DATADIR 
+09:44:03 INFO  : Successfully done setting workspace for the tool. 
+09:44:03 INFO  : Platform repository initialization has completed.
+09:58:23 INFO  : Result from executing command 'getProjects': design_1_wrapper
+09:58:23 INFO  : Result from executing command 'getPlatforms': 
+09:58:23 WARN  : An unexpected exception occurred in the module 'platform project logging'
+09:58:23 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+09:58:27 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+10:06:42 INFO  : Result from executing command 'getProjects': design_1_wrapper
+10:06:42 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/therk/emb_sys_vivado/project_2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+10:06:45 INFO  : Checking for BSP changes to sync application flags for project 'Hello_World'...

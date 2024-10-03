@@ -1,0 +1,28 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"531,-138",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 2 -x 1570 -y 60 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 2 -x 1570 -y 80 -defaultsOSRD
+preplace inst PS_Unit -pg 1 -lvl 1 -x 700 -y 88 -defaultsOSRD
+preplace inst PS_Unit|proc_sys_reset_0 -pg 1 -lvl 2 -x 1240 -y 228 -defaultsOSRD
+preplace inst PS_Unit|processing_system7_0 -pg 1 -lvl 1 -x 860 -y 158 -defaultsOSRD
+preplace netloc processing_system7_0_DDR 1 1 1 1540 60n
+preplace netloc processing_system7_0_FIXED_IO 1 1 1 1550 80n
+preplace netloc PS_Unit|processing_system7_0_FCLK_CLK0 1 0 2 660 268 1060
+preplace netloc PS_Unit|processing_system7_0_FCLK_RESET0_N 1 1 1 N 208
+preplace netloc PS_Unit|processing_system7_0_DDR 1 1 2 N 108 NJ
+preplace netloc PS_Unit|processing_system7_0_FIXED_IO 1 1 2 N 128 NJ
+levelinfo -pg 1 0 700 1570
+levelinfo -hier PS_Unit * 860 1240 *
+pagesize -pg 1 -db -bbox -sgen 0 0 1690 350
+pagesize -hier PS_Unit -db -bbox -sgen 640 48 1450 328
+"
+}
+{
+   "da_board_cnt":"1",
+   "da_ps7_cnt":"1"
+}

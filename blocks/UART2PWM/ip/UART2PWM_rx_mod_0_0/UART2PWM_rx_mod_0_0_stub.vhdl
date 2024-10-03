@@ -1,7 +1,7 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
--- Date        : Tue Sep 24 16:04:29 2024
+-- Date        : Thu Oct  3 08:47:07 2024
 -- Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 -- Command     : write_vhdl -force -mode synth_stub
 --               /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_rx_mod_0_0/UART2PWM_rx_mod_0_0_stub.vhdl

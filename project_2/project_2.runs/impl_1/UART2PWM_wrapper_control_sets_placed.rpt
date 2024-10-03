@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Tue Sep 24 16:07:40 2024
+| Date         : Thu Oct  3 08:48:21 2024
 | Host         : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_control_sets -verbose -file UART2PWM_wrapper_control_sets_placed.rpt
 | Design       : UART2PWM_wrapper
@@ -59,7 +59,7 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |               1 |            1 |
-| No           | No                    | Yes                    |              15 |            5 |
+| No           | No                    | Yes                    |              15 |            7 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
 | Yes          | No                    | Yes                    |              37 |            9 |
@@ -74,7 +74,7 @@ Table of Contents
 |                 Clock Signal                |                  Enable Signal                 | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +---------------------------------------------+------------------------------------------------+------------------+------------------+----------------+--------------+
 |  clk_0_IBUF_BUFG                            |                                                |                  |                1 |              1 |         1.00 |
-|  UART2PWM_i/UART/clk_divider_0/inst/clk_div |                                                | rst_0_IBUF       |                2 |              7 |         3.50 |
+|  UART2PWM_i/UART/clk_divider_0/inst/clk_div |                                                | rst_0_IBUF       |                4 |              7 |         1.75 |
 |  clk_0_IBUF_BUFG                            |                                                | rst_0_IBUF       |                3 |              8 |         2.67 |
 |  UART2PWM_i/UART/clk_divider_0/inst/clk_div | UART2PWM_i/UART/rx_mod_0/inst/rxreg[8]_i_1_n_0 | rst_0_IBUF       |                2 |             10 |         5.00 |
 |  clk_0_IBUF_BUFG                            | en_0_IBUF                                      | rst_0_IBUF       |                7 |             27 |         3.86 |

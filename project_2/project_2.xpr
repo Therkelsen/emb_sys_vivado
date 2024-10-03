@@ -75,6 +75,14 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
+      <File Path="$PSRCDIR/sources_1/imports/components/LUT.vhd">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/../components/LUT.vhd"/>
+          <Attr Name="ImportTime" Val="1726572264"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <File Path="$PSRCDIR/sources_1/imports/components/clk_divider.vhd">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../components/clk_divider.vhd"/>
@@ -99,10 +107,10 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/components/LUT.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/components/comparator.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../components/LUT.vhd"/>
-          <Attr Name="ImportTime" Val="1726572264"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../components/comparator.vhd"/>
+          <Attr Name="ImportTime" Val="1727176807"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -115,37 +123,29 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/components/comparator.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../components/comparator.vhd"/>
-          <Attr Name="ImportTime" Val="1727176807"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PPRDIR/../blocks/UART2PWM/UART2PWM.bd">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
+        <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_LUT_0_0/UART2PWM_LUT_0_0.xci">
+          <Proxy FileSetName="UART2PWM_LUT_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_clk_divider_0_0/UART2PWM_clk_divider_0_0.xci">
+          <Proxy FileSetName="UART2PWM_clk_divider_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_rx_mod_0_0/UART2PWM_rx_mod_0_0.xci">
           <Proxy FileSetName="UART2PWM_rx_mod_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci">
+          <Proxy FileSetName="UART2PWM_xl_slice_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_comparator_0_0/UART2PWM_comparator_0_0.xci">
           <Proxy FileSetName="UART2PWM_comparator_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_counter_0_0/UART2PWM_counter_0_0.xci">
           <Proxy FileSetName="UART2PWM_counter_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_clk_divider_0_0/UART2PWM_clk_divider_0_0.xci">
-          <Proxy FileSetName="UART2PWM_clk_divider_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci">
-          <Proxy FileSetName="UART2PWM_xl_slice_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="UART2PWM.bd" FileRelPathName="ip/UART2PWM_LUT_0_0/UART2PWM_LUT_0_0.xci">
-          <Proxy FileSetName="UART2PWM_LUT_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PPRDIR/../blocks/UART2PWM/hdl/UART2PWM_wrapper.v">
@@ -160,6 +160,13 @@
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../components/tx_mod_fsm.vhd"/>
           <Attr Name="ImportTime" Val="1727181101"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../components/and_gate.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -185,6 +192,7 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="UART2PWM_wrapper"/>
@@ -206,30 +214,6 @@
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
-    <FileSet Name="UART2PWM_rx_mod_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_rx_mod_0_0" RelGenDir="$PGENDIR/UART2PWM_rx_mod_0_0">
-      <Config>
-        <Option Name="TopModule" Val="UART2PWM_rx_mod_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="UART2PWM_comparator_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_comparator_0_0" RelGenDir="$PGENDIR/UART2PWM_comparator_0_0">
-      <Config>
-        <Option Name="TopModule" Val="UART2PWM_comparator_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="UART2PWM_counter_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_counter_0_0" RelGenDir="$PGENDIR/UART2PWM_counter_0_0">
-      <Config>
-        <Option Name="TopModule" Val="UART2PWM_counter_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
-    <FileSet Name="UART2PWM_clk_divider_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_clk_divider_0_0" RelGenDir="$PGENDIR/UART2PWM_clk_divider_0_0">
-      <Config>
-        <Option Name="TopModule" Val="UART2PWM_clk_divider_0_0"/>
-        <Option Name="UseBlackboxStub" Val="1"/>
-      </Config>
-    </FileSet>
     <FileSet Name="UART2PWM_xl_slice_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_xl_slice_0_0" RelGenDir="$PGENDIR/UART2PWM_xl_slice_0_0">
       <Config>
         <Option Name="TopModule" Val="UART2PWM_xl_slice_0_0"/>
@@ -239,6 +223,30 @@
     <FileSet Name="UART2PWM_LUT_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_LUT_0_0" RelGenDir="$PGENDIR/UART2PWM_LUT_0_0">
       <Config>
         <Option Name="TopModule" Val="UART2PWM_LUT_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="UART2PWM_comparator_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_comparator_0_0" RelGenDir="$PGENDIR/UART2PWM_comparator_0_0">
+      <Config>
+        <Option Name="TopModule" Val="UART2PWM_comparator_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="UART2PWM_clk_divider_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_clk_divider_0_0" RelGenDir="$PGENDIR/UART2PWM_clk_divider_0_0">
+      <Config>
+        <Option Name="TopModule" Val="UART2PWM_clk_divider_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="UART2PWM_rx_mod_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_rx_mod_0_0" RelGenDir="$PGENDIR/UART2PWM_rx_mod_0_0">
+      <Config>
+        <Option Name="TopModule" Val="UART2PWM_rx_mod_0_0"/>
+        <Option Name="UseBlackboxStub" Val="1"/>
+      </Config>
+    </FileSet>
+    <FileSet Name="UART2PWM_counter_0_0" Type="BlockSrcs" RelSrcDir="$PSRCDIR/UART2PWM_counter_0_0" RelGenDir="$PGENDIR/UART2PWM_counter_0_0">
+      <Config>
+        <Option Name="TopModule" Val="UART2PWM_counter_0_0"/>
         <Option Name="UseBlackboxStub" Val="1"/>
       </Config>
     </FileSet>
@@ -270,9 +278,7 @@
   <Runs Version="1" Minor="15">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -280,11 +286,19 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="UART2PWM_rx_mod_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_rx_mod_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_rx_mod_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_rx_mod_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_rx_mod_0_0_synth_1">
+    <Run Id="UART2PWM_xl_slice_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_xl_slice_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_xl_slice_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_xl_slice_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_xl_slice_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+        <Step Id="synth_design"/>
+      </Strategy>
+      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
+      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="UART2PWM_LUT_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_LUT_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_LUT_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_LUT_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_LUT_0_0_synth_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -293,18 +307,6 @@
       <RQSFiles/>
     </Run>
     <Run Id="UART2PWM_comparator_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_comparator_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_comparator_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_comparator_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_comparator_0_0_synth_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
-        <Step Id="synth_design"/>
-      </Strategy>
-      <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
-      <ReportStrategy Name="Vivado Synthesis Default Reports" Flow="Vivado Synthesis 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="UART2PWM_counter_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_counter_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_counter_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_counter_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_counter_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -328,7 +330,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="UART2PWM_xl_slice_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_xl_slice_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_xl_slice_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_xl_slice_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_xl_slice_0_0_synth_1">
+    <Run Id="UART2PWM_rx_mod_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_rx_mod_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_rx_mod_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_rx_mod_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_rx_mod_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -340,7 +342,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="UART2PWM_LUT_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_LUT_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_LUT_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_LUT_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_LUT_0_0_synth_1">
+    <Run Id="UART2PWM_counter_0_0_synth_1" Type="Ft3:Synth" SrcSet="UART2PWM_counter_0_0" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_counter_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/UART2PWM_counter_0_0_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_counter_0_0_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020">
           <Desc>Vivado Synthesis Defaults</Desc>
@@ -354,9 +356,7 @@
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="constrs_1" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" State="current" Dir="$PRUNDIR/impl_1" SynthRun="synth_1" IncludeInArchive="true" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -372,11 +372,26 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="UART2PWM_rx_mod_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_rx_mod_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_rx_mod_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_rx_mod_0_0_impl_1">
+    <Run Id="UART2PWM_xl_slice_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_xl_slice_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_xl_slice_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_xl_slice_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+        <Step Id="init_design"/>
+        <Step Id="opt_design"/>
+        <Step Id="power_opt_design"/>
+        <Step Id="place_design"/>
+        <Step Id="post_place_power_opt_design"/>
+        <Step Id="phys_opt_design"/>
+        <Step Id="route_design"/>
+        <Step Id="post_route_phys_opt_design"/>
+        <Step Id="write_bitstream"/>
+      </Strategy>
+      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
+      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
+      <RQSFiles/>
+    </Run>
+    <Run Id="UART2PWM_LUT_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_LUT_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_LUT_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_LUT_0_0_impl_1">
+      <Strategy Version="1" Minor="2">
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -392,25 +407,6 @@
       <RQSFiles/>
     </Run>
     <Run Id="UART2PWM_comparator_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_comparator_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_comparator_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_comparator_0_0_impl_1">
-      <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
-        <Step Id="init_design"/>
-        <Step Id="opt_design"/>
-        <Step Id="power_opt_design"/>
-        <Step Id="place_design"/>
-        <Step Id="post_place_power_opt_design"/>
-        <Step Id="phys_opt_design"/>
-        <Step Id="route_design"/>
-        <Step Id="post_route_phys_opt_design"/>
-        <Step Id="write_bitstream"/>
-      </Strategy>
-      <ReportStrategy Name="Vivado Implementation Default Reports" Flow="Vivado Implementation 2020"/>
-      <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
-      <RQSFiles/>
-    </Run>
-    <Run Id="UART2PWM_counter_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_counter_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_counter_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_counter_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
           <Desc>Default settings for Implementation.</Desc>
@@ -448,7 +444,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="UART2PWM_xl_slice_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_xl_slice_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_xl_slice_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_xl_slice_0_0_impl_1">
+    <Run Id="UART2PWM_rx_mod_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_rx_mod_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_rx_mod_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_rx_mod_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
           <Desc>Default settings for Implementation.</Desc>
@@ -467,7 +463,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="UART2PWM_LUT_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_LUT_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_LUT_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_LUT_0_0_impl_1">
+    <Run Id="UART2PWM_counter_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg400-1" ConstrsSet="UART2PWM_counter_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="UART2PWM_counter_0_0_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/UART2PWM_counter_0_0_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
           <Desc>Default settings for Implementation.</Desc>

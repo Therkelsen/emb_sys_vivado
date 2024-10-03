@@ -7,17 +7,21 @@ entity comparator is
            c : out std_logic);
 end comparator;
 
-architecture Behavioral of comparator
-is signal d: std_logic;
+architecture Behavioral of comparator is
+
+signal a_sig,b_sig: unsigned(26 downto 0);
+
+begin
+    process(a,b)
     begin
-        process (a, b)
-            begin
-                if (a <= b) then
-                    d <= '1';
-                else
-                    d <= '0';
-                end if;          
-        end process;
-c <= d;
+        if(a_sig <= b_sig)then 
+            c <= '1';
+        else
+            c <= '0';
+        end if;
+    end process;
+
+a_sig <= unsigned(a);            
+b_sig <= unsigned(b);
 
 end Behavioral;

@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Sep 24 16:04:06 2024
-# Process ID: 212819
+# Start of session at: Thu Oct  3 08:26:07 2024
+# Process ID: 13583
 # Current directory: /home/therk/emb_sys_vivado/project_2/project_2.runs/UART2PWM_comparator_0_0_synth_1
 # Command line: vivado -log UART2PWM_comparator_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART2PWM_comparator_0_0.tcl
 # Log file: /home/therk/emb_sys_vivado/project_2/project_2.runs/UART2PWM_comparator_0_0_synth_1/UART2PWM_comparator_0_0.vds

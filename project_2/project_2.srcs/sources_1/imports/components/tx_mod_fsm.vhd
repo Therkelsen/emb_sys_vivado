@@ -77,9 +77,9 @@ BEGIN
       IF (rst = '1') THEN
          current_state <= s0;
          -- Reset Values
-         cnt_bit <= (others=>'0');
-         count <= (others=>'0');
-         reg_data <= (others=>'1');
+         cnt_bit <= (others => '0');
+         count <= (others => '0');
+         reg_data <= (others => '1');
       ELSIF (clkfast'EVENT AND clkfast = '1') THEN
          current_state <= next_state;
          -- Default Assignment To Internals
@@ -88,13 +88,13 @@ BEGIN
          CASE current_state IS
          WHEN s0 =>
             --reg_data<= (others => '1');
-            reg_data<= data_in & "01";
-            count<= (others=>'0');
-            cnt_bit<= (others=>'0');
+            reg_data <= data_in & "01";
+            count <= (others => '0');
+            cnt_bit <= (others => '0');
          WHEN s1 =>
             reg_data <= '1' & reg_data(9 downto 1);
             cnt_bit <= cnt_bit + 1;
-            count<= count+1;
+            count <= count + 1;
          WHEN s2 =>
             count <= count + 1;
          WHEN s3 =>
@@ -129,7 +129,7 @@ BEGIN
       WHEN s1 =>
             next_state <= s2;
       WHEN s2 =>
-         IF (cnt_bit = 9 and count =15) THEN
+         IF (cnt_bit = 9 and count = 15) THEN
             next_state <= s3;
          ELSIF (count = 15) THEN
             next_state <= s1;

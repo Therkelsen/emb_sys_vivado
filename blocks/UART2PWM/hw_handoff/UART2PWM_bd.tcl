@@ -283,7 +283,7 @@ proc create_hier_cell_PWM { parentCell nameHier } {
   connect_bd_net -net LUT_0_bits [get_bd_pins b] [get_bd_pins comparator_0/b]
   connect_bd_net -net clk_0_1 [get_bd_pins clk_0] [get_bd_pins counter_0/clk]
   connect_bd_net -net comparator_0_c [get_bd_pins LED_0] [get_bd_pins comparator_0/c]
-  connect_bd_net -net counter_0_cnt [get_bd_pins comparator_0/a] [get_bd_pins counter_0/cnt]
+  connect_bd_net -net counter_0_cnt [get_bd_pins comparator_0/a] [get_bd_pins counter_0/count]
   connect_bd_net -net en_0_1 [get_bd_pins en_0] [get_bd_pins counter_0/en]
   connect_bd_net -net rst_0_1 [get_bd_pins rst_0] [get_bd_pins counter_0/rst]
 

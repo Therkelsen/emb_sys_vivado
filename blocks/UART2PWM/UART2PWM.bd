@@ -12,9 +12,9 @@
     "design_tree": {
       "LUT_0": "",
       "UART": {
+        "xl_slice_0": "",
         "clk_divider_0": "",
-        "rx_mod_0": "",
-        "xl_slice_0": ""
+        "rx_mod_0": ""
       },
       "PWM": {
         "comparator_0": "",
@@ -107,6 +107,29 @@
           }
         },
         "components": {
+          "xl_slice_0": {
+            "vlnv": "xilinx.com:module_ref:xl_slice:1.0",
+            "xci_name": "UART2PWM_xl_slice_0_0",
+            "xci_path": "ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci",
+            "inst_hier_path": "UART/xl_slice_0",
+            "reference_info": {
+              "ref_type": "hdl",
+              "ref_name": "xl_slice",
+              "boundary_crc": "0x0"
+            },
+            "ports": {
+              "Din": {
+                "direction": "I",
+                "left": "7",
+                "right": "0"
+              },
+              "Dout": {
+                "direction": "O",
+                "left": "3",
+                "right": "0"
+              }
+            }
+          },
           "clk_divider_0": {
             "vlnv": "xilinx.com:module_ref:clk_divider:1.0",
             "xci_name": "UART2PWM_clk_divider_0_0",
@@ -189,29 +212,6 @@
                 }
               }
             }
-          },
-          "xl_slice_0": {
-            "vlnv": "xilinx.com:module_ref:xl_slice:1.0",
-            "xci_name": "UART2PWM_xl_slice_0_0",
-            "xci_path": "ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci",
-            "inst_hier_path": "UART/xl_slice_0",
-            "reference_info": {
-              "ref_type": "hdl",
-              "ref_name": "xl_slice",
-              "boundary_crc": "0x0"
-            },
-            "ports": {
-              "Din": {
-                "direction": "I",
-                "left": "7",
-                "right": "0"
-              },
-              "Dout": {
-                "direction": "O",
-                "left": "3",
-                "right": "0"
-              }
-            }
           }
         },
         "nets": {
@@ -236,8 +236,8 @@
           "rst_0_1": {
             "ports": [
               "rst_0",
-              "rx_mod_0/rst",
-              "clk_divider_0/rst"
+              "clk_divider_0/rst",
+              "rx_mod_0/rst"
             ]
           },
           "sin_1": {
@@ -313,6 +313,9 @@
               "boundary_crc": "0x0"
             },
             "ports": {
+              "en": {
+                "direction": "I"
+              },
               "clk": {
                 "type": "clk",
                 "direction": "I",
@@ -335,10 +338,7 @@
                 "type": "rst",
                 "direction": "I"
               },
-              "en": {
-                "direction": "I"
-              },
-              "cnt": {
+              "count": {
                 "direction": "O",
                 "left": "26",
                 "right": "0"
@@ -349,7 +349,7 @@
         "nets": {
           "counter_0_cnt": {
             "ports": [
-              "counter_0/cnt",
+              "counter_0/count",
               "comparator_0/a"
             ]
           },
