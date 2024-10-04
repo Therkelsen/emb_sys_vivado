@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Thu Oct  3 08:48:29 2024
+| Date         : Fri Oct  4 12:25:03 2024
 | Host         : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_methodology -file UART2PWM_wrapper_methodology_drc_routed.rpt -pb UART2PWM_wrapper_methodology_drc_routed.pb -rpx UART2PWM_wrapper_methodology_drc_routed.rpx
 | Design       : UART2PWM_wrapper
@@ -23,148 +23,149 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 53
-+-----------+------------------+-----------------------------+------------+
-| Rule      | Severity         | Description                 | Violations |
-+-----------+------------------+-----------------------------+------------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell | 53         |
-+-----------+------------------+-----------------------------+------------+
+             Violations found: 54
++-----------+------------------+------------------------------+------------+
+| Rule      | Severity         | Description                  | Violations |
++-----------+------------------+------------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell  | 53         |
+| LUTAR-1   | Warning          | LUT drives async reset alert | 1          |
++-----------+------------------+------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
 TIMING-17#1 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[0]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[0]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#2 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[10]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[10]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#3 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[11]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[11]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#4 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[12]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[12]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#5 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[13]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[13]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#6 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[14]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[14]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#7 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[15]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[15]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#8 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[16]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[16]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#9 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[17]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[17]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#10 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[18]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[18]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#11 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[19]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[19]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#12 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[1]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[1]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#13 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[20]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[20]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#14 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[21]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[21]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#15 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[22]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[22]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#16 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[23]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[23]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#17 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[24]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[24]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#18 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[25]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[25]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#19 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[26]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[26]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#20 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[2]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[2]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#21 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[3]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[3]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#22 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[4]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[4]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#23 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[5]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[5]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#24 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[6]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[6]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#25 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[7]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[7]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#26 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[8]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[8]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#27 Critical Warning
 Non-clocked sequential cell  
-The clock pin UART2PWM_i/PWM/counter_0/inst/count_bin_reg[9]/C is not reached by a timing clock
+The clock pin UART2PWM_i/PWM/counter_0/inst/count_temp_reg[9]/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#28 Critical Warning
@@ -295,6 +296,26 @@ Related violations: <none>
 TIMING-17#53 Critical Warning
 Non-clocked sequential cell  
 The clock pin UART2PWM_i/UART/rx_mod_0/inst/start_flag_reg/C is not reached by a timing clock
+Related violations: <none>
+
+LUTAR-1#1 Warning
+LUT drives async reset alert  
+LUT cell UART2PWM_i/PWM/counter_0/inst/count_temp[26]_i_2, with 2 or more inputs, drives asynchronous preset/clear pin(s) UART2PWM_i/PWM/counter_0/inst/count_temp_reg[0]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[10]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[11]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[12]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[13]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[14]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[15]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[16]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[17]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[18]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[19]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[1]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[20]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[21]/CLR,
+UART2PWM_i/PWM/counter_0/inst/count_temp_reg[22]/CLR
+ (the first 15 of 27 listed). The LUT may glitch and trigger an unexpected reset, even if it is a properly timed path.
 Related violations: <none>
 
 

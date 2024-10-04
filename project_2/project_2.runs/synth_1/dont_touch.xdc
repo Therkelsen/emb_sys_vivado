@@ -9,14 +9,14 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM ||
 # IP: /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_LUT_0_0/UART2PWM_LUT_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM_LUT_0_0 || ORIG_REF_NAME==UART2PWM_LUT_0_0} -quiet] -quiet
 
+# IP: /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM_xl_slice_0_0 || ORIG_REF_NAME==UART2PWM_xl_slice_0_0} -quiet] -quiet
+
 # IP: /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_clk_divider_0_0/UART2PWM_clk_divider_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM_clk_divider_0_0 || ORIG_REF_NAME==UART2PWM_clk_divider_0_0} -quiet] -quiet
 
 # IP: /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_rx_mod_0_0/UART2PWM_rx_mod_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM_rx_mod_0_0 || ORIG_REF_NAME==UART2PWM_rx_mod_0_0} -quiet] -quiet
-
-# IP: /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_xl_slice_0_0/UART2PWM_xl_slice_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM_xl_slice_0_0 || ORIG_REF_NAME==UART2PWM_xl_slice_0_0} -quiet] -quiet
 
 # IP: /home/therk/emb_sys_vivado/blocks/UART2PWM/ip/UART2PWM_comparator_0_0/UART2PWM_comparator_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART2PWM_comparator_0_0 || ORIG_REF_NAME==UART2PWM_comparator_0_0} -quiet] -quiet

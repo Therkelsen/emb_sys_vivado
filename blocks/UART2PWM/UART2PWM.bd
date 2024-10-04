@@ -6,11 +6,9 @@
       "name": "UART2PWM",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2020.2",
-      "validated": "true"
+      "tool_version": "2020.2"
     },
     "design_tree": {
-      "LUT_0": "",
       "UART": {
         "xl_slice_0": "",
         "clk_divider_0": "",
@@ -19,35 +17,16 @@
       "PWM": {
         "comparator_0": "",
         "counter_0": ""
-      }
+      },
+      "LUT_0": ""
     },
     "ports": {
       "clk_0": {
         "type": "clk",
         "direction": "I",
         "parameters": {
-          "ASSOCIATED_RESET": {
-            "value": "rst_0",
-            "value_src": "default"
-          },
-          "CLK_DOMAIN": {
-            "value": "UART2PWM_clk_0",
-            "value_src": "default"
-          },
           "FREQ_HZ": {
             "value": "125000000"
-          },
-          "FREQ_TOLERANCE_HZ": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "INSERT_VIP": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "PHASE": {
-            "value": "0.000",
-            "value_src": "default"
           }
         }
       },
@@ -65,29 +44,6 @@
       }
     },
     "components": {
-      "LUT_0": {
-        "vlnv": "xilinx.com:module_ref:LUT:1.0",
-        "xci_name": "UART2PWM_LUT_0_0",
-        "xci_path": "ip/UART2PWM_LUT_0_0/UART2PWM_LUT_0_0.xci",
-        "inst_hier_path": "LUT_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "LUT",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "percent": {
-            "direction": "I",
-            "left": "3",
-            "right": "0"
-          },
-          "bits": {
-            "direction": "O",
-            "left": "26",
-            "right": "0"
-          }
-        }
-      },
       "UART": {
         "ports": {
           "clk_0": {
@@ -313,9 +269,6 @@
               "boundary_crc": "0x0"
             },
             "ports": {
-              "en": {
-                "direction": "I"
-              },
               "clk": {
                 "type": "clk",
                 "direction": "I",
@@ -336,6 +289,9 @@
               },
               "rst": {
                 "type": "rst",
+                "direction": "I"
+              },
+              "en": {
                 "direction": "I"
               },
               "count": {
@@ -382,6 +338,29 @@
               "comparator_0/c",
               "LED_0"
             ]
+          }
+        }
+      },
+      "LUT_0": {
+        "vlnv": "xilinx.com:module_ref:LUT:1.0",
+        "xci_name": "UART2PWM_LUT_0_0",
+        "xci_path": "ip/UART2PWM_LUT_0_0/UART2PWM_LUT_0_0.xci",
+        "inst_hier_path": "LUT_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "LUT",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "percent": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "bits": {
+            "direction": "O",
+            "left": "26",
+            "right": "0"
           }
         }
       }

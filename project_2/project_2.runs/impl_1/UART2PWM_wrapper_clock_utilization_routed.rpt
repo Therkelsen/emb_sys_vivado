@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Thu Oct  3 08:48:30 2024
+| Date         : Fri Oct  4 12:25:03 2024
 | Host         : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_clock_utilization -file UART2PWM_wrapper_clock_utilization_routed.rpt
 | Design       : UART2PWM_wrapper
@@ -69,7 +69,7 @@ Table of Contents
 +----------+-----------------+------------+--------------------+--------------+-------------+-----------------+--------------+-------+------------------------------------------------------+--------------------------------------------+
 | Local Id | Driver Type/Pin | Constraint | Site/BEL           | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock | Driver Pin                                           | Net                                        |
 +----------+-----------------+------------+--------------------+--------------+-------------+-----------------+--------------+-------+------------------------------------------------------+--------------------------------------------||
-| 0        | FDRE/Q          | None       | SLICE_X107Y129/AFF | X1Y2         |          17 |               1 |              |       | UART2PWM_i/UART/clk_divider_0/inst/clk_div_sig_reg/Q | UART2PWM_i/UART/clk_divider_0/inst/clk_div - Static -
+| 0        | FDRE/Q          | None       | SLICE_X110Y133/AFF | X1Y2         |          17 |               1 |              |       | UART2PWM_i/UART/clk_divider_0/inst/clk_div_sig_reg/Q | UART2PWM_i/UART/clk_divider_0/inst/clk_div - Static -
 +----------+-----------------+------------+--------------------+--------------+-------------+-----------------+--------------+-------+------------------------------------------------------+--------------------------------------------||
 * Local Clocks in this context represents only clocks driven by non-global buffers
 ** Clock Loads column represents the clock pin loads (pin count)
@@ -89,7 +89,7 @@ Table of Contents
 | X0Y1              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
 | X1Y1              |    0 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |    0 |  2600 |    0 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 | X0Y2              |    0 |    12 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |     0 |    0 |  1200 |    0 |   400 |    0 |    20 |    0 |    10 |    0 |    20 |
-| X1Y2              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   53 |  2600 |    2 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
+| X1Y2              |    1 |    12 |    0 |     4 |    0 |     2 |    0 |     4 |    0 |     1 |    0 |     1 |    0 |     0 |    0 |     0 |    0 |    50 |    0 |    50 |   53 |  2600 |    1 |   850 |    0 |    60 |    0 |    30 |    0 |    40 |
 +-------------------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+------+-------+
 * Global Clock column represents track count; while other columns represents cell counts
 

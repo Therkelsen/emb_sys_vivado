@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1727938008">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1728037400">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="BITSTR-SYSDEF" Name="UART2PWM_wrapper.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
@@ -85,6 +85,14 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/components/xslice.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../components/xslice.vhd"/>
+        <Attr Name="ImportTime" Val="1727181290"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/components/clk_divider.vhd">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../components/clk_divider.vhd"/>
@@ -97,14 +105,6 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../components/rx_mod_rtl.vhd"/>
         <Attr Name="ImportTime" Val="1727181107"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/components/xslice.vhd">
-      <FileInfo>
-        <Attr Name="ImportPath" Val="$PPRDIR/../components/xslice.vhd"/>
-        <Attr Name="ImportTime" Val="1727181290"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
