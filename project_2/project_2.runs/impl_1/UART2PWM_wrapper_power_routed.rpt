@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date             : Fri Oct  4 12:25:03 2024
+| Date             : Fri Oct  4 13:09:39 2024
 | Host             : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command          : report_power -file UART2PWM_wrapper_power_routed.rpt -pb UART2PWM_wrapper_power_summary_routed.pb -rpx UART2PWM_wrapper_power_routed.rpx
 | Design           : UART2PWM_wrapper
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.831        |
+| Total On-Chip Power (W)  | 1.897        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.690        |
-| Device Static (W)        | 0.140        |
+| Dynamic (W)              | 1.755        |
+| Device Static (W)        | 0.142        |
 | Effective TJA (C/W)      | 11.5         |
-| Max Ambient (C)          | 63.9         |
-| Junction Temperature (C) | 46.1         |
+| Max Ambient (C)          | 63.1         |
+| Junction Temperature (C) | 46.9         |
 | Confidence Level         | Low          |
 | Setting File             | ---          |
 | Simulation Activity File | ---          |
@@ -52,16 +52,16 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     0.362 |      175 |       --- |             --- |
-|   LUT as Logic |     0.314 |       60 |     53200 |            0.11 |
+| Slice Logic    |     0.393 |      175 |       --- |             --- |
+|   LUT as Logic |     0.344 |       60 |     53200 |            0.11 |
 |   CARRY4       |     0.022 |       15 |     13300 |            0.11 |
 |   Register     |     0.020 |       53 |    106400 |            0.05 |
 |   BUFG         |     0.006 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        8 |       --- |             --- |
-| Signals        |     0.245 |      100 |       --- |             --- |
+| Signals        |     0.279 |      100 |       --- |             --- |
 | I/O            |     1.083 |        5 |       125 |            4.00 |
-| Static Power   |     0.140 |          |           |                 |
-| Total          |     1.831 |          |           |                 |
+| Static Power   |     0.142 |          |           |                 |
+| Total          |     1.897 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.631 |       0.615 |      0.016 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.696 |       0.680 |      0.016 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.055 |       0.039 |      0.016 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.305 |       0.304 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -84,7 +84,7 @@ Table of Contents
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | MGTVccaux |       1.800 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
-| Vccpint   |       1.000 |     0.032 |       0.000 |      0.032 |       NA    | Unspecified | NA         |
+| Vccpint   |       1.000 |     0.033 |       0.000 |      0.033 |       NA    | Unspecified | NA         |
 | Vccpaux   |       1.800 |     0.010 |       0.000 |      0.010 |       NA    | Unspecified | NA         |
 | Vccpll    |       1.800 |     0.003 |       0.000 |      0.003 |       NA    | Unspecified | NA         |
 | Vcco_ddr  |       1.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -145,16 +145,16 @@ Table of Contents
 +---------------------+-----------+
 | Name                | Power (W) |
 +---------------------+-----------+
-| UART2PWM_wrapper    |     1.690 |
-|   UART2PWM_i        |     0.578 |
-|     LUT_0           |     0.011 |
-|       inst          |     0.011 |
-|     PWM             |     0.258 |
-|       comparator_0  |     0.073 |
-|       counter_0     |     0.185 |
-|     UART            |     0.309 |
-|       clk_divider_0 |     0.199 |
-|       rx_mod_0      |     0.110 |
+| UART2PWM_wrapper    |     1.755 |
+|   UART2PWM_i        |     0.642 |
+|     LUT_0           |     0.010 |
+|       inst          |     0.010 |
+|     PWM             |     0.285 |
+|       comparator_0  |     0.074 |
+|       counter_0     |     0.211 |
+|     UART            |     0.347 |
+|       clk_divider_0 |     0.236 |
+|       rx_mod_0      |     0.111 |
 +---------------------+-----------+
 
 

@@ -1,0 +1,33 @@
+20:04:53 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/bram_assignment/temp_xsdb_launch_script.tcl
+20:04:53 INFO  : Registering command handlers for Vitis TCF services
+20:04:55 INFO  : XSCT server has started successfully.
+20:04:55 INFO  : Successfully done setting XSCT server connection channel  
+20:04:55 INFO  : plnx-install-location is set to ''
+20:04:55 INFO  : Successfully done setting workspace for the tool. 
+20:04:55 INFO  : Successfully done query RDI_DATADIR 
+20:04:55 INFO  : Platform repository initialization has completed.
+20:06:43 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+20:06:43 INFO  : Result from executing command 'getPlatforms': 
+20:06:43 WARN  : An unexpected exception occurred in the module 'platform project logging'
+20:06:43 INFO  : Platform 'UART_BRAM_Interfacing_wrapper' is added to custom repositories.
+20:06:49 INFO  : Platform 'UART_BRAM_Interfacing_wrapper' is added to custom repositories.
+20:09:19 INFO  : No changes in MSS file content so sources will not be generated.
+20:09:37 INFO  : No changes in MSS file content so sources will not be generated.
+20:09:44 INFO  : No changes in MSS file content so sources will not be generated.
+20:10:05 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+20:10:17 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+20:10:17 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+20:10:29 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+20:10:29 INFO  : Updating application flags with new BSP settings...
+20:10:29 INFO  : Successfully updated application flags for project UART_BRAM_Interfacing.
+20:11:46 ERROR : Error occurred while generating bsp sources for the domain 'standalone_ps7_cortexa9_0'.
+20:11:51 INFO  : No changes in MSS file content so sources will not be generated.
+20:12:10 ERROR : Error occurred while generating bsp sources for the domain 'zynq_fsbl'.
+20:12:31 ERROR : Error occurred while generating bsp sources for the domain 'zynq_fsbl'.
+20:12:59 ERROR : Error occurred while generating bsp sources for the domain 'zynq_fsbl'.
+20:13:50 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+20:14:30 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+20:14:30 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+20:14:33 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+20:14:35 INFO  : Updating application flags with new BSP settings...
+20:14:35 INFO  : Successfully updated application flags for project UART_BRAM_Interfacing.

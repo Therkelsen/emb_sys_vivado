@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Fri Oct  4 12:23:55 2024
-# Process ID: 10618
+# Start of session at: Fri Oct  4 13:08:31 2024
+# Process ID: 40214
 # Current directory: /home/therk/emb_sys_vivado/project_2/project_2.runs/synth_1
 # Command line: vivado -log UART2PWM_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART2PWM_wrapper.tcl
 # Log file: /home/therk/emb_sys_vivado/project_2/project_2.runs/synth_1/UART2PWM_wrapper.vds

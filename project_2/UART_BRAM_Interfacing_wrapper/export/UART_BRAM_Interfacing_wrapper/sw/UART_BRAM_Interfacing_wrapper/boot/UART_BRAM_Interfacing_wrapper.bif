@@ -1,0 +1,7 @@
+/*UART_BRAM_Interfacing_wrapper*/
+the_ROM_image:
+{
+  [bootloader]<UART_BRAM_Interfacing_wrapper/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

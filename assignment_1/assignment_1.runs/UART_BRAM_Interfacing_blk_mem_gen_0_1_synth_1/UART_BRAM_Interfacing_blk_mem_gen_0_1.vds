@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct  6 16:50:21 2024
+# Process ID: 130010
+# Current directory: /home/therk/emb_sys_vivado/assignment_1/assignment_1.runs/UART_BRAM_Interfacing_blk_mem_gen_0_1_synth_1
+# Command line: vivado -log UART_BRAM_Interfacing_blk_mem_gen_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_BRAM_Interfacing_blk_mem_gen_0_1.tcl
+# Log file: /home/therk/emb_sys_vivado/assignment_1/assignment_1.runs/UART_BRAM_Interfacing_blk_mem_gen_0_1_synth_1/UART_BRAM_Interfacing_blk_mem_gen_0_1.vds
+# Journal file: /home/therk/emb_sys_vivado/assignment_1/assignment_1.runs/UART_BRAM_Interfacing_blk_mem_gen_0_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source UART_BRAM_Interfacing_blk_mem_gen_0_1.tcl -notrace
+WARNING: [Vivado 12-818] No files matched '/home/therk/emb_sys_vivado/blocks/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_blk_mem_gen_0_1/UART_BRAM_Interfacing_blk_mem_gen_0_1_ooc.xdc'
+ERROR: [Common 17-55] 'set_property' expects at least one object.
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-206] Exiting Vivado at Sun Oct  6 16:50:32 2024...

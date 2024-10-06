@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct  6 19:52:52 2024
+# Process ID: 9359
+# Current directory: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.runs/synth_1
+# Command line: vivado -log UART_BRAM_Interfacing_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_BRAM_Interfacing_wrapper.tcl
+# Log file: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.runs/synth_1/UART_BRAM_Interfacing_wrapper.vds
+# Journal file: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source UART_BRAM_Interfacing_wrapper.tcl -notrace

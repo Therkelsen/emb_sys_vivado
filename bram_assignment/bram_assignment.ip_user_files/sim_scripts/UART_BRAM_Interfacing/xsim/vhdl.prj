@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_padder_0_0/sim/UART_BRAM_Interfacing_padder_0_0.vhd" \
+"../../../bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_clk_divider_0_0/sim/UART_BRAM_Interfacing_clk_divider_0_0.vhd" \
+"../../../bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_rx_mod_0_0/sim/UART_BRAM_Interfacing_rx_mod_0_0.vhd" \
+"../../../bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_axi_bram_ctrl_0_0/sim/UART_BRAM_Interfacing_axi_bram_ctrl_0_0.vhd" \
+"../../../bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_processing_system7_0_0/UART_BRAM_Interfacing_processing_system7_0_0_sim_netlist.vhdl" \
+"../../../bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_proc_sys_reset_0_0/sim/UART_BRAM_Interfacing_proc_sys_reset_0_0.vhd" \
+"../../../bd/UART_BRAM_Interfacing/sim/UART_BRAM_Interfacing.vhd" \
+
+nosort

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="39">
+  <CompositeFile CompositeFileTopName="BRAM_Interface" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1728220610"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1728220610"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1728220610"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1728220610"/>
+    <FileCollection Name="SOURCES" Type="SOURCES"/>
+    <BlockContainerCollection>
+      <BlockContainer InstPath="UART_0" IsPR="false" State="Stale">
+        <ActiveVariantSynth FileName="bd/UART_inst_0/UART_inst_0.bd"/>
+        <ActiveVariantSim FileName="bd/UART_inst_0/UART_inst_0.bd"/>
+        <VariantsCollection>
+          <BDFile BDFilePath="bd/UART_inst_0/UART_inst_0.bd" BDFileset="UART_inst_0" BDSourceFile="../UART/UART.bd" BDSourceFileset="sources_1" BDVariantType="ALL"/>
+        </VariantsCollection>
+      </BlockContainer>
+    </BlockContainerCollection>
+    <ReferenceCollection>
+      <ModuleReference TargetName="UART" Type="Block Design" SubInstancePath="BRAM_Interface_UART_0">
+        <TopFile Name="../UART/UART.bd"/>
+        <FileCollection>
+          <File Name="../../assignment_1/assignment_1.srcs/sources_1/imports/components/clk_divider.vhd"/>
+          <File Name="../../assignment_1/assignment_1.srcs/sources_1/imports/components/rx_mod_rtl.vhd"/>
+          <File Name="../UART/UART.bd"/>
+        </FileCollection>
+      </ModuleReference>
+    </ReferenceCollection>
+  </CompositeFile>
+</Root>

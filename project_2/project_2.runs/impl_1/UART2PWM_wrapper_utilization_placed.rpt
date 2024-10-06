@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Fri Oct  4 12:24:53 2024
+| Date         : Fri Oct  4 13:09:29 2024
 | Host         : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_utilization -file UART2PWM_wrapper_utilization_placed.rpt -pb UART2PWM_wrapper_utilization_placed.pb
 | Design       : UART2PWM_wrapper
@@ -67,9 +67,9 @@ Table of Contents
 +--------------------------------------------+------+-------+-----------+-------+
 |                  Site Type                 | Used | Fixed | Available | Util% |
 +--------------------------------------------+------+-------+-----------+-------+
-| Slice                                      |   26 |     0 |     13300 |  0.20 |
-|   SLICEL                                   |   20 |     0 |           |       |
-|   SLICEM                                   |    6 |     0 |           |       |
+| Slice                                      |   27 |     0 |     13300 |  0.20 |
+|   SLICEL                                   |   18 |     0 |           |       |
+|   SLICEM                                   |    9 |     0 |           |       |
 | LUT as Logic                               |   60 |     0 |     53200 |  0.11 |
 |   using O5 output only                     |    0 |       |           |       |
 |   using O6 output only                     |   22 |       |           |       |
@@ -78,10 +78,10 @@ Table of Contents
 |   LUT as Distributed RAM                   |    0 |     0 |           |       |
 |   LUT as Shift Register                    |    0 |     0 |           |       |
 | Slice Registers                            |   53 |     0 |    106400 |  0.05 |
-|   Register driven from within the Slice    |   48 |       |           |       |
-|   Register driven from outside the Slice   |    5 |       |           |       |
-|     LUT in front of the register is unused |    0 |       |           |       |
-|     LUT in front of the register is used   |    5 |       |           |       |
+|   Register driven from within the Slice    |   49 |       |           |       |
+|   Register driven from outside the Slice   |    4 |       |           |       |
+|     LUT in front of the register is unused |    1 |       |           |       |
+|     LUT in front of the register is used   |    3 |       |           |       |
 | Unique Control Sets                        |    5 |       |     13300 |  0.04 |
 +--------------------------------------------+------+-------+-----------+-------+
 * * Note: Available Control Sets calculated as Slice * 1, Review the Control Sets Report for more information regarding control sets.
@@ -117,8 +117,8 @@ Table of Contents
 |          Site Type          | Used | Fixed | Available | Util% |
 +-----------------------------+------+-------+-----------+-------+
 | Bonded IOB                  |    5 |     5 |       125 |  4.00 |
-|   IOB Master Pads           |    2 |       |           |       |
-|   IOB Slave Pads            |    3 |       |           |       |
+|   IOB Master Pads           |    3 |       |           |       |
+|   IOB Slave Pads            |    2 |       |           |       |
 | Bonded IPADs                |    0 |     0 |         2 |  0.00 |
 | Bonded IOPADs               |    0 |     0 |       130 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |         4 |  0.00 |

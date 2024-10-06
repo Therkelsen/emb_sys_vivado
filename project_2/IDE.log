@@ -22,3 +22,24 @@
 10:06:42 INFO  : Result from executing command 'getProjects': design_1_wrapper
 10:06:42 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/therk/emb_sys_vivado/project_2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
 10:06:45 INFO  : Checking for BSP changes to sync application flags for project 'Hello_World'...
+19:58:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/project_2/temp_xsdb_launch_script.tcl
+19:58:24 INFO  : XSCT server has started successfully.
+19:58:24 INFO  : plnx-install-location is set to ''
+19:58:24 INFO  : Successfully done setting XSCT server connection channel  
+19:58:24 INFO  : Successfully done setting workspace for the tool. 
+19:58:25 INFO  : Platform repository initialization has completed.
+19:58:26 INFO  : Registering command handlers for Vitis TCF services
+19:58:26 INFO  : Successfully done query RDI_DATADIR 
+20:02:13 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper;design_1_wrapper
+20:02:13 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|/home/therk/emb_sys_vivado/project_2/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm
+20:02:14 WARN  : An unexpected exception occurred in the module 'platform project logging'
+20:02:14 INFO  : Platform 'UART_BRAM_Interfacing_wrapper' is added to custom repositories.
+20:02:17 INFO  : Platform 'UART_BRAM_Interfacing_wrapper' is added to custom repositories.
+20:04:26 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/project_2/temp_xsdb_launch_script.tcl
+20:04:26 INFO  : Registering command handlers for Vitis TCF services
+20:04:28 INFO  : XSCT server has started successfully.
+20:04:28 INFO  : plnx-install-location is set to ''
+20:04:28 INFO  : Successfully done setting XSCT server connection channel  
+20:04:28 INFO  : Successfully done query RDI_DATADIR 
+20:04:28 INFO  : Successfully done setting workspace for the tool. 
+20:04:29 INFO  : Platform repository initialization has completed.

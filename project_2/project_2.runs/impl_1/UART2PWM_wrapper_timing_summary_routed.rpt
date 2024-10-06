@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Fri Oct  4 12:25:03 2024
+| Date         : Fri Oct  4 13:09:39 2024
 | Host         : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_timing_summary -max_paths 10 -file UART2PWM_wrapper_timing_summary_routed.rpt -pb UART2PWM_wrapper_timing_summary_routed.pb -rpx UART2PWM_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : UART2PWM_wrapper

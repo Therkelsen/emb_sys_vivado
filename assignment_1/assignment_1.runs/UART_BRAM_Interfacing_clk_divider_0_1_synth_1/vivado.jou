@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Sun Oct  6 16:50:21 2024
+# Process ID: 130012
+# Current directory: /home/therk/emb_sys_vivado/assignment_1/assignment_1.runs/UART_BRAM_Interfacing_clk_divider_0_1_synth_1
+# Command line: vivado -log UART_BRAM_Interfacing_clk_divider_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source UART_BRAM_Interfacing_clk_divider_0_1.tcl
+# Log file: /home/therk/emb_sys_vivado/assignment_1/assignment_1.runs/UART_BRAM_Interfacing_clk_divider_0_1_synth_1/UART_BRAM_Interfacing_clk_divider_0_1.vds
+# Journal file: /home/therk/emb_sys_vivado/assignment_1/assignment_1.runs/UART_BRAM_Interfacing_clk_divider_0_1_synth_1/vivado.jou
+#-----------------------------------------------------------
+source UART_BRAM_Interfacing_clk_divider_0_1.tcl -notrace
