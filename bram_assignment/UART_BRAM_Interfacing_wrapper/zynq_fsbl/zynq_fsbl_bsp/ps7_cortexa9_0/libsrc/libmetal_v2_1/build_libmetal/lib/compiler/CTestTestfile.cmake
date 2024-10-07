@@ -1,8 +1,0 @@
-# CMake generated Testfile for 
-# Source directory: /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/src/libmetal/lib/compiler
-# Build directory: /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/zynq_fsbl/zynq_fsbl_bsp/ps7_cortexa9_0/libsrc/libmetal_v2_1/build_libmetal/lib/compiler
-# 
-# This file includes the relevant testing commands required for 
-# testing this directory and lists subdirectories to be tested as well.
-subdirs(gcc)
-subdirs(iar)

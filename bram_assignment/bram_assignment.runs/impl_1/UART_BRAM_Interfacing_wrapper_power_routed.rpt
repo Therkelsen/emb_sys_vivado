@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date             : Sun Oct  6 19:54:00 2024
+| Date             : Mon Oct  7 11:09:09 2024
 | Host             : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command          : report_power -file UART_BRAM_Interfacing_wrapper_power_routed.rpt -pb UART_BRAM_Interfacing_wrapper_power_summary_routed.pb -rpx UART_BRAM_Interfacing_wrapper_power_routed.rpx
 | Design           : UART_BRAM_Interfacing_wrapper
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 1.412        |
+| Total On-Chip Power (W)  | 1.411        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 1.277        |
+| Dynamic (W)              | 1.276        |
 | Device Static (W)        | 0.135        |
 | Effective TJA (C/W)      | 11.5         |
 | Max Ambient (C)          | 68.7         |
@@ -53,20 +53,21 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.007 |        3 |       --- |             --- |
-| Slice Logic              |     0.005 |     3384 |       --- |             --- |
-|   LUT as Logic           |     0.005 |     1208 |     53200 |            2.27 |
-|   LUT as Distributed RAM |    <0.001 |      100 |     17400 |            0.57 |
-|   Register               |    <0.001 |     1219 |    106400 |            1.15 |
+| Slice Logic              |     0.005 |     3343 |       --- |             --- |
+|   LUT as Logic           |     0.004 |     1261 |     53200 |            2.37 |
+|   LUT as Distributed RAM |    <0.001 |       96 |     17400 |            0.55 |
+|   Register               |    <0.001 |     1185 |    106400 |            1.11 |
 |   LUT as Shift Register  |    <0.001 |      146 |     17400 |            0.84 |
 |   CARRY4                 |    <0.001 |        4 |     13300 |            0.03 |
+|   BUFG                   |    <0.001 |        1 |        32 |            3.13 |
 |   F7/F8 Muxes            |    <0.001 |        1 |     53200 |           <0.01 |
-|   Others                 |     0.000 |      272 |       --- |             --- |
-| Signals                  |     0.006 |     2332 |       --- |             --- |
+|   Others                 |     0.000 |      262 |       --- |             --- |
+| Signals                  |     0.006 |     2354 |       --- |             --- |
 | Block RAM                |     0.003 |        2 |       140 |            1.43 |
 | I/O                      |    <0.001 |        3 |       125 |            2.40 |
 | PS7                      |     1.256 |        1 |       --- |             --- |
 | Static Power             |     0.135 |          |           |                 |
-| Total                    |     1.412 |          |           |                 |
+| Total                    |     1.411 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +77,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.034 |       0.021 |      0.013 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.033 |       0.020 |      0.013 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.014 |       0.000 |      0.014 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -152,11 +153,11 @@ Table of Contents
 +-------------------------------+-----------+
 | Name                          | Power (W) |
 +-------------------------------+-----------+
-| UART_BRAM_Interfacing_wrapper |     1.277 |
-|   UART_BRAM_Interfacing_i     |     1.277 |
-|     PS                        |     1.277 |
+| UART_BRAM_Interfacing_wrapper |     1.276 |
+|   UART_BRAM_Interfacing_i     |     1.276 |
+|     PS                        |     1.276 |
 |       axi_bram_ctrl_0         |     0.002 |
-|       blk_mem_gen_0_0         |     0.004 |
+|       blk_mem_gen_0_0         |     0.003 |
 |       processing_system7_0    |     1.256 |
 |       smartconnect_1          |     0.015 |
 +-------------------------------+-----------+

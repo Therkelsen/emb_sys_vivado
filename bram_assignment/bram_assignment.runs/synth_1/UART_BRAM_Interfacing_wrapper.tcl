@@ -70,6 +70,8 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 6
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7z020clg400-1
 
@@ -88,13 +90,16 @@ set_property ip_output_repo /home/therk/emb_sys_vivado/bram_assignment/bram_assi
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_vhdl -library xil_defaultlib /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/hdl/UART_BRAM_Interfacing_wrapper.vhd
+read_vhdl -library xil_defaultlib {
+  /home/therk/emb_sys_vivado/components/clk_divider.vhd
+  /home/therk/emb_sys_vivado/components/rx_mod_rtl.vhd
+  /home/therk/emb_sys_vivado/components/padder.vhd
+  /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/hdl/UART_BRAM_Interfacing_wrapper.vhd
+}
 add_files /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.srcs/sources_1/bd/UART_BRAM_Interfacing/UART_BRAM_Interfacing.bd
-set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_axi_bram_ctrl_0_0/UART_BRAM_Interfacing_axi_bram_ctrl_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_processing_system7_0_0/UART_BRAM_Interfacing_processing_system7_0_0.xdc]
 set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_proc_sys_reset_0_0/UART_BRAM_Interfacing_proc_sys_reset_0_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_proc_sys_reset_0_0/UART_BRAM_Interfacing_proc_sys_reset_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_proc_sys_reset_0_0/UART_BRAM_Interfacing_proc_sys_reset_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_blk_mem_gen_0_0_6/UART_BRAM_Interfacing_blk_mem_gen_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_1/bd_1034_psr_aclk_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_1/bd_1034_psr_aclk_0.xdc]

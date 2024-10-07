@@ -31,3 +31,289 @@
 20:14:33 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
 20:14:35 INFO  : Updating application flags with new BSP settings...
 20:14:35 INFO  : Successfully updated application flags for project UART_BRAM_Interfacing.
+09:22:33 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/bram_assignment/temp_xsdb_launch_script.tcl
+09:22:35 INFO  : XSCT server has started successfully.
+09:22:35 INFO  : Successfully done setting XSCT server connection channel  
+09:22:35 INFO  : plnx-install-location is set to ''
+09:22:35 INFO  : Successfully done setting workspace for the tool. 
+09:22:35 INFO  : Platform repository initialization has completed.
+09:22:36 INFO  : Registering command handlers for Vitis TCF services
+09:22:36 INFO  : Successfully done query RDI_DATADIR 
+09:26:32 INFO  : No changes in MSS file content so sources will not be generated.
+09:27:56 INFO  : No changes in MSS file content so sources will not be generated.
+09:31:40 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+09:32:17 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+09:32:17 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+09:32:20 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+09:32:22 INFO  : The hardware specfication used by project 'UART_BRAM_Interfacing' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+09:32:22 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit' stored in project is removed.
+09:32:22 INFO  : The updated bitstream files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream' in project 'UART_BRAM_Interfacing'.
+09:32:22 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl' stored in project is removed.
+09:32:25 INFO  : The updated ps init files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit' in project 'UART_BRAM_Interfacing'.
+09:38:38 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/bram_assignment/temp_xsdb_launch_script.tcl
+09:38:40 INFO  : XSCT server has started successfully.
+09:38:40 INFO  : plnx-install-location is set to ''
+09:38:40 INFO  : Successfully done setting XSCT server connection channel  
+09:38:40 INFO  : Successfully done setting workspace for the tool. 
+09:38:41 INFO  : Platform repository initialization has completed.
+09:38:41 INFO  : Successfully done query RDI_DATADIR 
+09:38:41 INFO  : Registering command handlers for Vitis TCF services
+09:39:06 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+09:39:34 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+09:39:34 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+09:39:37 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+09:41:06 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+09:41:06 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+09:41:09 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+09:42:40 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+09:43:11 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+09:43:11 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+09:43:14 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+09:43:16 INFO  : The hardware specfication used by project 'UART_BRAM_Interfacing' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+09:43:16 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit' stored in project is removed.
+09:43:16 INFO  : The updated bitstream files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream' in project 'UART_BRAM_Interfacing'.
+09:43:16 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl' stored in project is removed.
+09:43:19 INFO  : The updated ps init files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit' in project 'UART_BRAM_Interfacing'.
+09:45:09 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+09:45:33 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper' is updated.
+09:46:18 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+09:46:18 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+09:46:21 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+09:49:12 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+09:49:12 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+09:49:15 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+09:51:33 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/bram_assignment/temp_xsdb_launch_script.tcl
+09:51:35 INFO  : XSCT server has started successfully.
+09:51:35 INFO  : Successfully done setting XSCT server connection channel  
+09:51:35 INFO  : plnx-install-location is set to ''
+09:51:35 INFO  : Successfully done setting workspace for the tool. 
+09:51:36 INFO  : Platform repository initialization has completed.
+09:51:36 INFO  : Successfully done query RDI_DATADIR 
+09:51:37 INFO  : Registering command handlers for Vitis TCF services
+09:53:23 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper;UART_BRAM_Interfacing_wrapper_1
+09:53:23 INFO  : Result from executing command 'getPlatforms': 
+09:53:23 WARN  : An unexpected exception occurred in the module 'platform project logging'
+09:53:23 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_1' is added to custom repositories.
+09:53:28 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_1' is added to custom repositories.
+09:54:28 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+09:54:28 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:21:18 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper_1' is updated.
+10:21:36 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+10:21:36 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:21:39 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing_2'...
+10:21:41 INFO  : The hardware specfication used by project 'UART_BRAM_Interfacing_2' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+10:21:41 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit' stored in project is removed.
+10:21:41 INFO  : The updated bitstream files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/bitstream' in project 'UART_BRAM_Interfacing_2'.
+10:21:41 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/psinit/ps7_init.tcl' stored in project is removed.
+10:21:44 INFO  : The updated ps init files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/psinit' in project 'UART_BRAM_Interfacing_2'.
+10:23:20 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+10:23:20 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:23:23 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing_2'...
+10:36:35 INFO  : Hardware specification for platform project 'UART_BRAM_Interfacing_wrapper_1' is updated.
+10:37:08 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+10:37:08 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:37:11 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing_2'...
+10:37:13 INFO  : The hardware specfication used by project 'UART_BRAM_Interfacing_2' is out of sync with the platform. Resource files extracted from the hardware specfiication will be updated.
+10:37:13 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/bitstream/UART_BRAM_Interfacing_wrapper_1.bit' stored in project is removed.
+10:37:13 INFO  : The updated bitstream files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/bitstream' in project 'UART_BRAM_Interfacing_2'.
+10:37:13 INFO  : The file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/psinit/ps7_init.tcl' stored in project is removed.
+10:37:16 INFO  : The updated ps init files are copied from platform to folder '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_2/_ide/psinit' in project 'UART_BRAM_Interfacing_2'.
+10:38:19 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+10:38:19 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:38:35 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+10:38:35 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:38:38 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing_2'...
+10:41:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/bram_assignment/temp_xsdb_launch_script.tcl
+10:41:24 INFO  : XSCT server has started successfully.
+10:41:24 INFO  : plnx-install-location is set to ''
+10:41:24 INFO  : Successfully done setting XSCT server connection channel  
+10:41:24 INFO  : Successfully done setting workspace for the tool. 
+10:41:25 INFO  : Platform repository initialization has completed.
+10:41:25 INFO  : Successfully done query RDI_DATADIR 
+10:41:25 INFO  : Registering command handlers for Vitis TCF services
+10:42:33 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1;UART_BRAM_Interfacing_wrapper_3
+10:42:33 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+10:42:33 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:42:33 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_3' is added to custom repositories.
+10:42:39 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_3' is added to custom repositories.
+10:43:13 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_3
+10:43:13 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm;UART_BRAM_Interfacing_wrapper_3|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_3/export/UART_BRAM_Interfacing_wrapper_3/UART_BRAM_Interfacing_wrapper_3.xpfm
+10:43:17 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing_wrapper_project'...
+10:46:51 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_3
+10:46:51 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm;UART_BRAM_Interfacing_wrapper_3|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_3/export/UART_BRAM_Interfacing_wrapper_3/UART_BRAM_Interfacing_wrapper_3.xpfm
+10:46:55 INFO  : Checking for BSP changes to sync application flags for project 'abc'...
+10:54:36 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_4
+10:54:36 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm;UART_BRAM_Interfacing_wrapper_3|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_3/export/UART_BRAM_Interfacing_wrapper_3/UART_BRAM_Interfacing_wrapper_3.xpfm
+10:54:36 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_4' is added to custom repositories.
+10:54:43 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_4' is added to custom repositories.
+10:54:56 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_4
+10:54:56 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm;UART_BRAM_Interfacing_wrapper_3|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_3/export/UART_BRAM_Interfacing_wrapper_3/UART_BRAM_Interfacing_wrapper_3.xpfm;UART_BRAM_Interfacing_wrapper_4|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_4/export/UART_BRAM_Interfacing_wrapper_4/UART_BRAM_Interfacing_wrapper_4.xpfm
+10:55:08 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_4
+10:55:08 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm;UART_BRAM_Interfacing_wrapper_3|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_3/export/UART_BRAM_Interfacing_wrapper_3/UART_BRAM_Interfacing_wrapper_3.xpfm;UART_BRAM_Interfacing_wrapper_4|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_4/export/UART_BRAM_Interfacing_wrapper_4/UART_BRAM_Interfacing_wrapper_4.xpfm
+10:55:11 INFO  : Checking for BSP changes to sync application flags for project 'test'...
+11:04:16 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+11:04:16 INFO  : Result from executing command 'getPlatforms': 
+11:04:16 ERROR : Unexpected exception occurred while writing platform project 'UART_BRAM_Interfacing_wrapper_4' log.
+11:04:16 INFO  : Platform 'UART_BRAM_Interfacing_wrapper' is added to custom repositories.
+11:04:23 INFO  : Platform 'UART_BRAM_Interfacing_wrapper' is added to custom repositories.
+11:05:56 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper
+11:05:56 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/UART_BRAM_Interfacing_wrapper.xpfm
+11:06:00 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing_project'...
+11:17:22 INFO  : Launching XSCT server: xsct -n  -interactive /home/therk/emb_sys_vivado/bram_assignment/temp_xsdb_launch_script.tcl
+11:17:22 INFO  : Registering command handlers for Vitis TCF services
+11:17:24 ERROR : Error encountered while initializing user repository paths
+Reason: No Platforms Found.
+
+
+11:17:24 INFO  : Platform repository initialization has completed.
+11:17:24 INFO  : XSCT server has started successfully.
+11:17:24 INFO  : plnx-install-location is set to ''
+11:17:24 INFO  : Successfully done setting XSCT server connection channel  
+11:17:24 INFO  : Successfully done query RDI_DATADIR 
+11:17:24 INFO  : Successfully done setting workspace for the tool. 
+11:18:33 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+11:18:33 INFO  : Result from executing command 'getPlatforms': 
+11:18:33 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:18:33 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_1' is added to custom repositories.
+11:18:38 INFO  : Platform 'UART_BRAM_Interfacing_wrapper_1' is added to custom repositories.
+11:20:25 INFO  : Result from executing command 'getProjects': UART_BRAM_Interfacing_wrapper_1
+11:20:25 INFO  : Result from executing command 'getPlatforms': UART_BRAM_Interfacing_wrapper_1|/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/UART_BRAM_Interfacing_wrapper_1.xpfm
+11:20:28 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+11:22:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:22:09 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:22:09 INFO  : 'jtag frequency' command is executed.
+11:22:09 INFO  : Context for 'APU' is selected.
+11:22:09 INFO  : System reset is completed.
+11:22:12 INFO  : 'after 3000' command is executed.
+11:22:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:22:15 INFO  : Device configured successfully with "/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit"
+11:22:15 INFO  : Context for 'APU' is selected.
+11:22:15 INFO  : Hardware design and registers information is loaded from '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa'.
+11:22:15 INFO  : 'configparams force-mem-access 1' command is executed.
+11:22:15 INFO  : Context for 'APU' is selected.
+11:22:15 INFO  : Sourcing of '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl' is done.
+11:22:15 INFO  : 'ps7_init' command is executed.
+11:22:15 INFO  : 'ps7_post_config' command is executed.
+11:22:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:22:15 INFO  : The application '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:22:15 INFO  : 'configparams force-mem-access 0' command is executed.
+11:22:15 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:22:15 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:22:15 INFO  : 'con' command is executed.
+11:22:15 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:22:15 INFO  : Launch script is exported to file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_system/_ide/scripts/debugger_uart_bram_interfacing-default.tcl'
+11:25:14 INFO  : Checking for BSP changes to sync application flags for project 'UART_BRAM_Interfacing'...
+11:25:45 INFO  : Disconnected from the channel tcfchan#3.
+11:25:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:25:46 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:25:46 INFO  : 'jtag frequency' command is executed.
+11:25:46 INFO  : Context for 'APU' is selected.
+11:25:46 INFO  : System reset is completed.
+11:25:49 INFO  : 'after 3000' command is executed.
+11:25:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:25:51 INFO  : Device configured successfully with "/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit"
+11:25:51 INFO  : Context for 'APU' is selected.
+11:25:51 INFO  : Hardware design and registers information is loaded from '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa'.
+11:25:51 INFO  : 'configparams force-mem-access 1' command is executed.
+11:25:51 INFO  : Context for 'APU' is selected.
+11:25:51 INFO  : Sourcing of '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl' is done.
+11:25:52 INFO  : 'ps7_init' command is executed.
+11:25:52 INFO  : 'ps7_post_config' command is executed.
+11:25:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:25:52 INFO  : The application '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:25:52 INFO  : 'configparams force-mem-access 0' command is executed.
+11:25:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:25:52 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:25:52 INFO  : 'con' command is executed.
+11:25:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:25:52 INFO  : Launch script is exported to file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_system/_ide/scripts/debugger_uart_bram_interfacing-default.tcl'
+11:25:55 INFO  : Disconnected from the channel tcfchan#5.
+11:25:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:25:56 INFO  : Jtag cable 'Xilinx TUL 1234-tulA' is selected.
+11:25:56 INFO  : 'jtag frequency' command is executed.
+11:25:56 INFO  : Context for 'APU' is selected.
+11:25:56 INFO  : System reset is completed.
+11:25:59 INFO  : 'after 3000' command is executed.
+11:25:59 INFO  : 'targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}' command is executed.
+11:26:01 INFO  : Device configured successfully with "/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit"
+11:26:01 INFO  : Context for 'APU' is selected.
+11:26:01 INFO  : Hardware design and registers information is loaded from '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa'.
+11:26:01 INFO  : 'configparams force-mem-access 1' command is executed.
+11:26:01 INFO  : Context for 'APU' is selected.
+11:26:01 INFO  : Sourcing of '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl' is done.
+11:26:02 INFO  : 'ps7_init' command is executed.
+11:26:02 INFO  : 'ps7_post_config' command is executed.
+11:26:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:26:02 INFO  : The application '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf' is downloaded to processor 'ps7_cortexa9_0'.
+11:26:02 INFO  : 'configparams force-mem-access 0' command is executed.
+11:26:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}
+fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+11:26:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:26:02 INFO  : 'con' command is executed.
+11:26:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+11:26:02 INFO  : Launch script is exported to file '/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_system/_ide/scripts/debugger_uart_bram_interfacing-default.tcl'

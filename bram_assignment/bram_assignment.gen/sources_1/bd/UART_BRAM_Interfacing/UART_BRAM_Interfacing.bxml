@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="39">
   <CompositeFile CompositeFileTopName="UART_BRAM_Interfacing" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1728237125"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1728237125"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1728237125"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1728237125"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1728290971"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1728290971"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1728290971"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1728290971"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="synth/UART_BRAM_Interfacing.vhd" Type="VHDL">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
@@ -15,6 +15,12 @@
       <File Name="sim/UART_BRAM_Interfacing.vhd" Type="VHDL">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="UART_BRAM_Interfacing.bmm" Type="BMM">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
       <File Name="UART_BRAM_Interfacing_ooc.xdc" Type="XDC">

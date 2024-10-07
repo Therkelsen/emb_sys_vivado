@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------
 | Tool Version              : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date                      : Sun Oct  6 19:53:47 2024
+| Date                      : Mon Oct  7 11:08:54 2024
 | Host                      : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command                   : report_io -file UART_BRAM_Interfacing_wrapper_io_placed.rpt
 | Design                    : UART_BRAM_Interfacing_wrapper

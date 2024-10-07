@@ -1,0 +1,18 @@
+11:06:00 **** Build of configuration Debug for project UART_BRAM_Interfacing_project ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+ 
+make --no-print-directory main-build
+Building file: ../src/UART_BRAM_Interfacing.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/UART_BRAM_Interfacing.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/sw/UART_BRAM_Interfacing_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/UART_BRAM_Interfacing.d" -MT"src/UART_BRAM_Interfacing.o" -o "src/UART_BRAM_Interfacing.o" "../src/UART_BRAM_Interfacing.c"
+../src/UART_BRAM_Interfacing.c:5:10: fatal error: xbram.h: No such file or directory
+    5 | #include "xbram.h"
+      |          ^~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:26: src/UART_BRAM_Interfacing.o] Error 1
+make: *** [makefile:34: all] Error 2
+
+11:06:01 Build Finished (took 205ms)
+

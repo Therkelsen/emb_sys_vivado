@@ -1,18 +1,25 @@
-20:14:35 **** Build of configuration Debug for project UART_BRAM_Interfacing ****
+11:25:14 **** Incremental Build of configuration Debug for project UART_BRAM_Interfacing ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
  
 make --no-print-directory main-build
-Building file: ../src/BRAM_LED.c
+Building file: ../src/UART_BRAM_Interfacing.c
 Invoking: ARM v7 gcc compiler
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/BRAM_LED.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper/sw/UART_BRAM_Interfacing_wrapper/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/BRAM_LED.d" -MT"src/BRAM_LED.o" -o "src/BRAM_LED.o" "../src/BRAM_LED.c"
-../src/BRAM_LED.c:17:10: fatal error: xbram.h: No such file or directory
-   17 | #include "xbram.h"
-      |          ^~~~~~~~~
-compilation terminated.
-make[1]: *** [src/subdir.mk:29: src/BRAM_LED.o] Error 1
-make: *** [makefile:34: all] Error 2
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/UART_BRAM_Interfacing.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/bspinclude/include -MMD -MP -MF"src/UART_BRAM_Interfacing.d" -MT"src/UART_BRAM_Interfacing.o" -o "src/UART_BRAM_Interfacing.o" "../src/UART_BRAM_Interfacing.c"
+Finished building: ../src/UART_BRAM_Interfacing.c
+ 
+Building target: UART_BRAM_Interfacing.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/bsplib/lib -o "UART_BRAM_Interfacing.elf"  ./src/UART_BRAM_Interfacing.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: UART_BRAM_Interfacing.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size UART_BRAM_Interfacing.elf  |tee "UART_BRAM_Interfacing.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  22644	   1216	  22664	  46524	   b5bc	UART_BRAM_Interfacing.elf
+Finished building: UART_BRAM_Interfacing.elf.size
+ 
 
-20:14:35 Build Finished (took 164ms)
+11:25:14 Build Finished (took 268ms)
 

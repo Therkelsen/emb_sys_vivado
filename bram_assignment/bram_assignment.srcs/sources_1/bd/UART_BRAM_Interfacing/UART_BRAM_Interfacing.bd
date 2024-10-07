@@ -6,12 +6,11 @@
       "gen_directory": "../../../../bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing",
       "name": "UART_BRAM_Interfacing",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
-      "synth_flow_mode": "Hierarchical",
+      "synth_flow_mode": "None",
       "tool_version": "2020.2",
       "validated": "true"
     },
     "design_tree": {
-      "padder_0": "",
       "UART": {
         "clk_divider_0": "",
         "rx_mod_0": ""
@@ -25,7 +24,8 @@
       },
       "addr_0": "",
       "en_0": "",
-      "web_0": ""
+      "web_0": "",
+      "padder_0": ""
     },
     "interface_ports": {
       "DDR": {
@@ -94,6 +94,23 @@
       }
     },
     "ports": {
+      "rst_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "sin_0": {
+        "direction": "I"
+      },
       "clk_0": {
         "type": "clk",
         "direction": "I",
@@ -103,8 +120,7 @@
             "value_src": "default"
           },
           "CLK_DOMAIN": {
-            "value": "UART_BRAM_Interfacing_clk_0",
-            "value_src": "default"
+            "value": "UART_BRAM_Interfacing_clk_0"
           },
           "FREQ_HZ": {
             "value": "125000000"
@@ -122,49 +138,9 @@
             "value_src": "default"
           }
         }
-      },
-      "rst_0": {
-        "type": "rst",
-        "direction": "I",
-        "parameters": {
-          "INSERT_VIP": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "POLARITY": {
-            "value": "ACTIVE_LOW",
-            "value_src": "default"
-          }
-        }
-      },
-      "sin_0": {
-        "direction": "I"
       }
     },
     "components": {
-      "padder_0": {
-        "vlnv": "xilinx.com:module_ref:padder:1.0",
-        "xci_name": "UART_BRAM_Interfacing_padder_0_0",
-        "xci_path": "ip/UART_BRAM_Interfacing_padder_0_0/UART_BRAM_Interfacing_padder_0_0.xci",
-        "inst_hier_path": "padder_0",
-        "reference_info": {
-          "ref_type": "hdl",
-          "ref_name": "padder",
-          "boundary_crc": "0x0"
-        },
-        "ports": {
-          "din": {
-            "direction": "I",
-            "left": "7",
-            "right": "0"
-          },
-          "dout": {
-            "direction": "O",
-            "left": "31",
-            "right": "0"
-          }
-        }
-      },
       "UART": {
         "ports": {
           "clk_0": {
@@ -182,13 +158,16 @@
             "direction": "O",
             "left": "7",
             "right": "0"
+          },
+          "clk_div": {
+            "direction": "O"
           }
         },
         "components": {
           "clk_divider_0": {
             "vlnv": "xilinx.com:module_ref:clk_divider:1.0",
-            "xci_name": "UART_BRAM_Interfacing_clk_divider_0_0",
-            "xci_path": "ip/UART_BRAM_Interfacing_clk_divider_0_0/UART_BRAM_Interfacing_clk_divider_0_0.xci",
+            "xci_name": "UART_BRAM_Interfacing_clk_divider_0_1",
+            "xci_path": "ip/UART_BRAM_Interfacing_clk_divider_0_1/UART_BRAM_Interfacing_clk_divider_0_1.xci",
             "inst_hier_path": "UART/clk_divider_0",
             "reference_info": {
               "ref_type": "hdl",
@@ -210,7 +189,7 @@
                   },
                   "CLK_DOMAIN": {
                     "value": "UART_BRAM_Interfacing_clk_0",
-                    "value_src": "default_prop"
+                    "value_src": "user_prop"
                   }
                 }
               },
@@ -225,8 +204,8 @@
           },
           "rx_mod_0": {
             "vlnv": "xilinx.com:module_ref:rx_mod:1.0",
-            "xci_name": "UART_BRAM_Interfacing_rx_mod_0_0",
-            "xci_path": "ip/UART_BRAM_Interfacing_rx_mod_0_0/UART_BRAM_Interfacing_rx_mod_0_0.xci",
+            "xci_name": "UART_BRAM_Interfacing_rx_mod_0_1",
+            "xci_path": "ip/UART_BRAM_Interfacing_rx_mod_0_1/UART_BRAM_Interfacing_rx_mod_0_1.xci",
             "inst_hier_path": "UART/rx_mod_0",
             "reference_info": {
               "ref_type": "hdl",
@@ -273,20 +252,21 @@
           "clk_divider_0_clk_div": {
             "ports": [
               "clk_divider_0/clk_div",
+              "clk_div",
               "rx_mod_0/clk"
+            ]
+          },
+          "rst_0_1": {
+            "ports": [
+              "rst_0",
+              "clk_divider_0/rst",
+              "rx_mod_0/rst"
             ]
           },
           "clk_0_1": {
             "ports": [
               "clk_0",
               "clk_divider_0/clk"
-            ]
-          },
-          "rst_0_1": {
-            "ports": [
-              "rst_0",
-              "rx_mod_0/rst",
-              "clk_divider_0/rst"
             ]
           },
           "sin_0_1": {
@@ -351,6 +331,16 @@
             "parameters": {
               "SINGLE_PORT_BRAM": {
                 "value": "1"
+              }
+            },
+            "hdl_attributes": {
+              "BMM_INFO_ADDRESS_SPACE": {
+                "value": "byte  0x40000000 32 > UART_BRAM_Interfacing PS/blk_mem_gen_0_0",
+                "value_src": "default"
+              },
+              "KEEP_HIERARCHY": {
+                "value": "yes",
+                "value_src": "default"
               }
             }
           },
@@ -2069,6 +2059,16 @@
                   }
                 }
               }
+            },
+            "hdl_attributes": {
+              "BMM_INFO_PROCESSOR": {
+                "value": "arm > UART_BRAM_Interfacing PS/axi_bram_ctrl_0",
+                "value_src": "default"
+              },
+              "KEEP_HIERARCHY": {
+                "value": "yes",
+                "value_src": "default"
+              }
             }
           },
           "proc_sys_reset_0": {
@@ -2197,15 +2197,6 @@
           }
         },
         "nets": {
-          "processing_system7_0_FCLK_CLK0": {
-            "ports": [
-              "processing_system7_0/FCLK_CLK0",
-              "processing_system7_0/M_AXI_GP0_ACLK",
-              "proc_sys_reset_0/slowest_sync_clk",
-              "axi_bram_ctrl_0/s_axi_aclk",
-              "smartconnect_1/aclk"
-            ]
-          },
           "clkb_1": {
             "ports": [
               "clkb",
@@ -2254,6 +2245,15 @@
               "axi_bram_ctrl_0/s_axi_aresetn",
               "smartconnect_1/aresetn"
             ]
+          },
+          "processing_system7_0_FCLK_CLK0": {
+            "ports": [
+              "processing_system7_0/FCLK_CLK0",
+              "axi_bram_ctrl_0/s_axi_aclk",
+              "smartconnect_1/aclk",
+              "proc_sys_reset_0/slowest_sync_clk",
+              "processing_system7_0/M_AXI_GP0_ACLK"
+            ]
           }
         }
       },
@@ -2290,6 +2290,29 @@
             "value": "4"
           }
         }
+      },
+      "padder_0": {
+        "vlnv": "xilinx.com:module_ref:padder:1.0",
+        "xci_name": "UART_BRAM_Interfacing_padder_0_1",
+        "xci_path": "ip/UART_BRAM_Interfacing_padder_0_1/UART_BRAM_Interfacing_padder_0_1.xci",
+        "inst_hier_path": "padder_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "padder",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "din": {
+            "direction": "I",
+            "left": "7",
+            "right": "0"
+          },
+          "dout": {
+            "direction": "O",
+            "left": "31",
+            "right": "0"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -2307,13 +2330,6 @@
       }
     },
     "nets": {
-      "clk_0_1": {
-        "ports": [
-          "clk_0",
-          "UART/clk_0",
-          "PS/clkb"
-        ]
-      },
       "rst_0_1": {
         "ports": [
           "rst_0",
@@ -2325,18 +2341,6 @@
         "ports": [
           "sin_0",
           "UART/sin_0"
-        ]
-      },
-      "rx_mod_0_data_out": {
-        "ports": [
-          "UART/data_out",
-          "padder_0/din"
-        ]
-      },
-      "padder_0_dout": {
-        "ports": [
-          "padder_0/dout",
-          "PS/dinb"
         ]
       },
       "en_0_dout": {
@@ -2356,6 +2360,30 @@
           "web_0/dout",
           "PS/web"
         ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "UART/clk_0"
+        ]
+      },
+      "UART_clk_div": {
+        "ports": [
+          "UART/clk_div",
+          "PS/clkb"
+        ]
+      },
+      "UART_data_out": {
+        "ports": [
+          "UART/data_out",
+          "padder_0/din"
+        ]
+      },
+      "padder_0_dout": {
+        "ports": [
+          "padder_0/dout",
+          "PS/dinb"
+        ]
       }
     },
     "addressing": {
@@ -2366,8 +2394,7 @@
               "SEG_axi_bram_ctrl_0_Mem0": {
                 "address_block": "/PS/axi_bram_ctrl_0/S_AXI/Mem0",
                 "offset": "0x40000000",
-                "range": "8K",
-                "is_excluded": "TRUE"
+                "range": "8K"
               }
             }
           }

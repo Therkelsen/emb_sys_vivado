@@ -167,6 +167,7 @@ proc create_hier_cell_UART { parentCell nameHier } {
 
   # Create pins
   create_bd_pin -dir I -type clk clk_0
+  create_bd_pin -dir O clk_div
   create_bd_pin -dir O -from 7 -to 0 data_out
   create_bd_pin -dir I -type rst rst_0
   create_bd_pin -dir I sin_0
@@ -195,7 +196,7 @@ proc create_hier_cell_UART { parentCell nameHier } {
   
   # Create port connections
   connect_bd_net -net clk_0_1 [get_bd_pins clk_0] [get_bd_pins clk_divider_0/clk]
-  connect_bd_net -net clk_divider_0_clk_div [get_bd_pins clk_divider_0/clk_div] [get_bd_pins rx_mod_0/clk]
+  connect_bd_net -net clk_divider_0_clk_div [get_bd_pins clk_div] [get_bd_pins clk_divider_0/clk_div] [get_bd_pins rx_mod_0/clk]
   connect_bd_net -net rst_0_1 [get_bd_pins rst_0] [get_bd_pins clk_divider_0/rst] [get_bd_pins rx_mod_0/rst]
   connect_bd_net -net rx_mod_0_data_out [get_bd_pins data_out] [get_bd_pins rx_mod_0/data_out]
   connect_bd_net -net sin_0_1 [get_bd_pins sin_0] [get_bd_pins rx_mod_0/sin]
@@ -1141,6 +1142,9 @@ proc create_root_design { parentCell } {
 
   # Create ports
   set clk_0 [ create_bd_port -dir I -type clk -freq_hz 125000000 clk_0 ]
+  set_property -dict [ list \
+   CONFIG.CLK_DOMAIN {UART_BRAM_Interfacing_clk_0} \
+ ] $clk_0
   set rst_0 [ create_bd_port -dir I -type rst rst_0 ]
   set sin_0 [ create_bd_port -dir I sin_0 ]
 
@@ -1183,19 +1187,18 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net processing_system7_0_FIXED_IO [get_bd_intf_ports FIXED_IO] [get_bd_intf_pins PS/FIXED_IO]
 
   # Create port connections
+  connect_bd_net -net UART_clk_div [get_bd_pins PS/clkb] [get_bd_pins UART/clk_div]
+  connect_bd_net -net UART_data_out [get_bd_pins UART/data_out] [get_bd_pins padder_0/din]
   connect_bd_net -net addr_0_dout [get_bd_pins PS/addrb] [get_bd_pins addr_0/dout]
-  connect_bd_net -net clk_0_1 [get_bd_ports clk_0] [get_bd_pins PS/clkb] [get_bd_pins UART/clk_0]
+  connect_bd_net -net clk_0_1 [get_bd_ports clk_0] [get_bd_pins UART/clk_0]
   connect_bd_net -net en_0_dout [get_bd_pins PS/enb] [get_bd_pins en_0/dout]
   connect_bd_net -net padder_0_dout [get_bd_pins PS/dinb] [get_bd_pins padder_0/dout]
   connect_bd_net -net rst_0_1 [get_bd_ports rst_0] [get_bd_pins PS/rstb] [get_bd_pins UART/rst_0]
-  connect_bd_net -net rx_mod_0_data_out [get_bd_pins UART/data_out] [get_bd_pins padder_0/din]
   connect_bd_net -net sin_0_1 [get_bd_ports sin_0] [get_bd_pins UART/sin_0]
   connect_bd_net -net web_0_dout [get_bd_pins PS/web] [get_bd_pins web_0/dout]
 
   # Create address segments
-
-  # Exclude Address Segments
-  exclude_bd_addr_seg -offset 0x40000000 -range 0x00002000 -target_address_space [get_bd_addr_spaces PS/processing_system7_0/Data] [get_bd_addr_segs PS/axi_bram_ctrl_0/S_AXI/Mem0]
+  assign_bd_address -offset 0x40000000 -range 0x00002000 -target_address_space [get_bd_addr_spaces PS/processing_system7_0/Data] [get_bd_addr_segs PS/axi_bram_ctrl_0/S_AXI/Mem0] -force
 
 
   # Restore current instance

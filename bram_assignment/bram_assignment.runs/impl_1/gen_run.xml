@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1728237129">
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1728292098">
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="BITSTR-SYSDEF" Name="UART_BRAM_Interfacing_wrapper.sysdef"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
@@ -77,12 +77,6 @@
   <File Type="PA-TCL" Name="UART_BRAM_Interfacing_wrapper.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PPRDIR/../components/padder.vhd">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
     <File Path="$PPRDIR/../components/clk_divider.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -90,6 +84,12 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../components/rx_mod_rtl.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../components/padder.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -182,7 +182,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -193,12 +195,4 @@
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_processing_system7_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_padder_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_smartconnect_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_blk_mem_gen_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_proc_sys_reset_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_axi_bram_ctrl_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_clk_divider_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="UART_BRAM_Interfacing_rx_mod_0_0"/>
 </GenRun>

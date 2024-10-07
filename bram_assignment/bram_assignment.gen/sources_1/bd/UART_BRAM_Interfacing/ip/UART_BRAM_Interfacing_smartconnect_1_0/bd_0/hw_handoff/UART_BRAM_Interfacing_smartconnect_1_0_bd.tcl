@@ -511,10 +511,17 @@ proc create_hier_cell_s00_entry_pipeline { parentCell nameHier } {
    CONFIG.MSC_ROUTE_WIDTH {1} \
    CONFIG.NUM_MSC {1} \
    CONFIG.NUM_READ_OUTSTANDING {8} \
-   CONFIG.NUM_SEG {0} \
+   CONFIG.NUM_SEG {1} \
    CONFIG.NUM_WRITE_OUTSTANDING {8} \
    CONFIG.RDATA_WIDTH {32} \
    CONFIG.READ_WRITE_MODE {READ_WRITE} \
+   CONFIG.SEG000_BASE_ADDR {0x0000000040000000} \
+   CONFIG.SEG000_SECURE_READ {0} \
+   CONFIG.SEG000_SECURE_WRITE {0} \
+   CONFIG.SEG000_SEP_ROUTE {0b0000000000000000000000000000000000000000000000000000000000000000} \
+   CONFIG.SEG000_SIZE {13} \
+   CONFIG.SEG000_SUPPORTS_READ {1} \
+   CONFIG.SEG000_SUPPORTS_WRITE {1} \
    CONFIG.SUPPORTS_NARROW {0} \
    CONFIG.S_ARUSER_WIDTH {0} \
    CONFIG.S_AWUSER_WIDTH {0} \
@@ -542,11 +549,14 @@ proc create_hier_cell_s00_entry_pipeline { parentCell nameHier } {
    CONFIG.NUM_MSC {1} \
    CONFIG.NUM_READ_OUTSTANDING {8} \
    CONFIG.NUM_READ_THREADS {1} \
-   CONFIG.NUM_SEG {0} \
+   CONFIG.NUM_SEG {1} \
    CONFIG.NUM_WRITE_OUTSTANDING {8} \
    CONFIG.NUM_WRITE_THREADS {1} \
    CONFIG.RDATA_WIDTH {32} \
    CONFIG.READ_WRITE_MODE {READ_WRITE} \
+   CONFIG.SEP000_PROTOCOL {AXI4} \
+   CONFIG.SEP000_RDATA_WIDTH {32} \
+   CONFIG.SEP000_WDATA_WIDTH {32} \
    CONFIG.SUPPORTS_NARROW {0} \
    CONFIG.S_RUSER_BITS_PER_BYTE {0} \
    CONFIG.S_WUSER_BITS_PER_BYTE {0} \
@@ -564,7 +574,7 @@ proc create_hier_cell_s00_entry_pipeline { parentCell nameHier } {
    CONFIG.NUM_WRITE_OUTSTANDING {8} \
    CONFIG.RDATA_WIDTH {32} \
    CONFIG.READ_WRITE_MODE {READ_WRITE} \
-   CONFIG.SEP_ROUTE_WIDTH {0} \
+   CONFIG.SEP_ROUTE_WIDTH {1} \
    CONFIG.SUPPORTS_READ_DEADLOCK {0} \
    CONFIG.SUPPORTS_WRITE_DEADLOCK {0} \
    CONFIG.S_ID_WIDTH {12} \
@@ -632,7 +642,7 @@ proc create_hier_cell_m00_exit_pipeline { parentCell nameHier } {
   # Create instance: m00_exit, and set properties
   set m00_exit [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_exit:1.0 m00_exit ]
   set_property -dict [ list \
-   CONFIG.ADDR_WIDTH {15} \
+   CONFIG.ADDR_WIDTH {13} \
    CONFIG.ENABLE_PIPELINING {0} \
    CONFIG.HAS_BURST {1} \
    CONFIG.HAS_LOCK {0} \
@@ -811,7 +821,7 @@ proc create_root_design { parentCell } {
   # Create instance: m00_sc2axi, and set properties
   set m00_sc2axi [ create_bd_cell -type ip -vlnv xilinx.com:ip:sc_sc2axi:1.0 m00_sc2axi ]
   set_property -dict [ list \
-   CONFIG.AXI_ADDR_WIDTH {15} \
+   CONFIG.AXI_ADDR_WIDTH {13} \
    CONFIG.AXI_ID_WIDTH {1} \
    CONFIG.AXI_RDATA_WIDTH {32} \
    CONFIG.AXI_WDATA_WIDTH {32} \

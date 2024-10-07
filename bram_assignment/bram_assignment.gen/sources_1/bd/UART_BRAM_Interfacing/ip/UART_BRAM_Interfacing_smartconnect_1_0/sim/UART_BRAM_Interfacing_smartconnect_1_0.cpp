@@ -201,7 +201,7 @@ void UART_BRAM_Interfacing_smartconnect_1_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "15");
+    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -231,7 +231,7 @@ void UART_BRAM_Interfacing_smartconnect_1_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M00_AXI_transactor_param_props.addString("CLK_DOMAIN", "UART_BRAM_Interfacing_processing_system7_0_0_FCLK_CLK0");
 
-    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,15,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
+    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,13,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
 
     // M00_AXI' transactor ports
 
@@ -434,7 +434,7 @@ void UART_BRAM_Interfacing_smartconnect_1_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "15");
+    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -464,7 +464,7 @@ void UART_BRAM_Interfacing_smartconnect_1_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M00_AXI_transactor_param_props.addString("CLK_DOMAIN", "UART_BRAM_Interfacing_processing_system7_0_0_FCLK_CLK0");
 
-    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,15,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
+    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,13,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
 
     // M00_AXI' transactor ports
 
@@ -667,7 +667,7 @@ void UART_BRAM_Interfacing_smartconnect_1_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "15");
+    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -697,7 +697,7 @@ void UART_BRAM_Interfacing_smartconnect_1_0::before_end_of_elaboration()
     M00_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M00_AXI_transactor_param_props.addString("CLK_DOMAIN", "UART_BRAM_Interfacing_processing_system7_0_0_FCLK_CLK0");
 
-    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,15,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
+    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,13,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
 
     // M00_AXI' transactor ports
 
@@ -870,7 +870,7 @@ UART_BRAM_Interfacing_smartconnect_1_0::UART_BRAM_Interfacing_smartconnect_1_0(c
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "15");
+    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -900,7 +900,7 @@ UART_BRAM_Interfacing_smartconnect_1_0::UART_BRAM_Interfacing_smartconnect_1_0(c
     M00_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M00_AXI_transactor_param_props.addString("CLK_DOMAIN", "UART_BRAM_Interfacing_processing_system7_0_0_FCLK_CLK0");
 
-    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,15,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
+    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,13,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
   mp_M00_AXI_transactor->AWADDR(M00_AXI_awaddr);
   mp_M00_AXI_transactor->AWLEN(M00_AXI_awlen);
   mp_M00_AXI_transactor->AWSIZE(M00_AXI_awsize);
@@ -1103,7 +1103,7 @@ UART_BRAM_Interfacing_smartconnect_1_0::UART_BRAM_Interfacing_smartconnect_1_0(c
     M00_AXI_transactor_param_props.addLong("DATA_WIDTH", "32");
     M00_AXI_transactor_param_props.addLong("FREQ_HZ", "100000000");
     M00_AXI_transactor_param_props.addLong("ID_WIDTH", "0");
-    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "15");
+    M00_AXI_transactor_param_props.addLong("ADDR_WIDTH", "13");
     M00_AXI_transactor_param_props.addLong("AWUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("ARUSER_WIDTH", "0");
     M00_AXI_transactor_param_props.addLong("WUSER_WIDTH", "0");
@@ -1133,7 +1133,7 @@ UART_BRAM_Interfacing_smartconnect_1_0::UART_BRAM_Interfacing_smartconnect_1_0(c
     M00_AXI_transactor_param_props.addString("READ_WRITE_MODE", "READ_WRITE");
     M00_AXI_transactor_param_props.addString("CLK_DOMAIN", "UART_BRAM_Interfacing_processing_system7_0_0_FCLK_CLK0");
 
-    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,15,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
+    mp_M00_AXI_transactor = new xtlm::xaximm_xtlm2pin_t<32,13,1,1,1,1,1,1>("M00_AXI_transactor", M00_AXI_transactor_param_props);
   mp_M00_AXI_transactor->AWADDR(M00_AXI_awaddr);
   mp_M00_AXI_transactor->AWLEN(M00_AXI_awlen);
   mp_M00_AXI_transactor->AWSIZE(M00_AXI_awsize);

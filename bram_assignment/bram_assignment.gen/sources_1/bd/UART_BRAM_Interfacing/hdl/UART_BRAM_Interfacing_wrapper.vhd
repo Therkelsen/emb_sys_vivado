@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
---Date        : Sun Oct  6 19:51:19 2024
+--Date        : Mon Oct  7 10:49:30 2024
 --Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 --Command     : generate_target UART_BRAM_Interfacing_wrapper.bd
 --Design      : UART_BRAM_Interfacing_wrapper
@@ -43,7 +43,6 @@ end UART_BRAM_Interfacing_wrapper;
 architecture STRUCTURE of UART_BRAM_Interfacing_wrapper is
   component UART_BRAM_Interfacing is
   port (
-    clk_0 : in STD_LOGIC;
     rst_0 : in STD_LOGIC;
     sin_0 : in STD_LOGIC;
     FIXED_IO_mio : inout STD_LOGIC_VECTOR ( 53 downto 0 );
@@ -66,7 +65,8 @@ architecture STRUCTURE of UART_BRAM_Interfacing_wrapper is
     DDR_dm : inout STD_LOGIC_VECTOR ( 3 downto 0 );
     DDR_dq : inout STD_LOGIC_VECTOR ( 31 downto 0 );
     DDR_dqs_n : inout STD_LOGIC_VECTOR ( 3 downto 0 );
-    DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 )
+    DDR_dqs_p : inout STD_LOGIC_VECTOR ( 3 downto 0 );
+    clk_0 : in STD_LOGIC
   );
   end component UART_BRAM_Interfacing;
 begin

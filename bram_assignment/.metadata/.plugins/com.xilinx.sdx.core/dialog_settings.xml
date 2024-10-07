@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item key="sdx.custom.platform.repository.locations" value="/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper"/>
+	<item key="sdx.custom.platform.repository.locations" value="/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper/export/UART_BRAM_Interfacing_wrapper;/home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1"/>
 </section>

@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
-| Date         : Sun Oct  6 19:53:59 2024
+| Date         : Mon Oct  7 11:09:08 2024
 | Host         : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 | Command      : report_methodology -file UART_BRAM_Interfacing_wrapper_methodology_drc_routed.rpt -pb UART_BRAM_Interfacing_wrapper_methodology_drc_routed.pb -rpx UART_BRAM_Interfacing_wrapper_methodology_drc_routed.rpx
 | Design       : UART_BRAM_Interfacing_wrapper
@@ -23,13 +23,12 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 33
-+-----------+------------------+------------------------------------------------------------------+------------+
-| Rule      | Severity         | Description                                                      | Violations |
-+-----------+------------------+------------------------------------------------------------------+------------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell                                      | 32         |
-| CKLD-2    | Warning          | Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads | 1          |
-+-----------+------------------+------------------------------------------------------------------+------------+
+             Violations found: 32
++-----------+------------------+-----------------------------+------------+
+| Rule      | Severity         | Description                 | Violations |
++-----------+------------------+-----------------------------+------------+
+| TIMING-17 | Critical Warning | Non-clocked sequential cell | 32         |
++-----------+------------------+-----------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
@@ -191,11 +190,6 @@ Related violations: <none>
 TIMING-17#32 Critical Warning
 Non-clocked sequential cell  
 The clock pin UART_BRAM_Interfacing_i/UART/rx_mod_0/U0/start_flag_reg/C is not reached by a timing clock
-Related violations: <none>
-
-CKLD-2#1 Warning
-Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
-Clock net clk_0_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): UART_BRAM_Interfacing_i/clk_0, clk_0_IBUF_inst/O
 Related violations: <none>
 
 

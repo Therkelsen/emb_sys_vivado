@@ -6,15 +6,6 @@
 # Block Designs: bd/UART_BRAM_Interfacing/UART_BRAM_Interfacing.bd
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing || ORIG_REF_NAME==UART_BRAM_Interfacing} -quiet] -quiet
 
-# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_padder_0_0/UART_BRAM_Interfacing_padder_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_padder_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_padder_0_0} -quiet] -quiet
-
-# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_clk_divider_0_0/UART_BRAM_Interfacing_clk_divider_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_clk_divider_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_clk_divider_0_0} -quiet] -quiet
-
-# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_rx_mod_0_0/UART_BRAM_Interfacing_rx_mod_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_rx_mod_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_rx_mod_0_0} -quiet] -quiet
-
 # IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_axi_bram_ctrl_0_0/UART_BRAM_Interfacing_axi_bram_ctrl_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_axi_bram_ctrl_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_axi_bram_ctrl_0_0} -quiet] -quiet
 
@@ -27,6 +18,51 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_I
 # IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_blk_mem_gen_0_0_6/UART_BRAM_Interfacing_blk_mem_gen_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_blk_mem_gen_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_blk_mem_gen_0_0} -quiet] -quiet
 
+# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/UART_BRAM_Interfacing_smartconnect_1_0.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_smartconnect_1_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_smartconnect_1_0} -quiet] -quiet
+
+# Block Designs: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/bd_1034.bd
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_0/bd_1034_one_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_1/bd_1034_psr_aclk_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_2/bd_1034_s00mmu_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_3/bd_1034_s00tr_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_4/bd_1034_s00sic_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_5/bd_1034_s00a2s_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_6/bd_1034_sarn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_7/bd_1034_srn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_8/bd_1034_sawn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_9/bd_1034_swn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_10/bd_1034_sbn_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_11/bd_1034_m00s2a_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
+# IP: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_12/bd_1034_m00e_0.xci
+# DONT_TOUCH constraint suppressed by (parent) sub-design file.
+
 # IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_xlconstant_0_1/UART_BRAM_Interfacing_xlconstant_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_xlconstant_0_1 || ORIG_REF_NAME==UART_BRAM_Interfacing_xlconstant_0_1} -quiet] -quiet
 
@@ -36,7 +72,46 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_I
 # IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_xlconstant_1_0/UART_BRAM_Interfacing_xlconstant_1_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_xlconstant_1_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_xlconstant_1_0} -quiet] -quiet
 
-# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/UART_BRAM_Interfacing_smartconnect_1_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_smartconnect_1_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_smartconnect_1_0} -quiet] -quiet
+# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_clk_divider_0_1/UART_BRAM_Interfacing_clk_divider_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_clk_divider_0_1 || ORIG_REF_NAME==UART_BRAM_Interfacing_clk_divider_0_1} -quiet] -quiet
+
+# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_rx_mod_0_1/UART_BRAM_Interfacing_rx_mod_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_rx_mod_0_1 || ORIG_REF_NAME==UART_BRAM_Interfacing_rx_mod_0_1} -quiet] -quiet
+
+# IP: bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_padder_0_1/UART_BRAM_Interfacing_padder_0_1.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_padder_0_1 || ORIG_REF_NAME==UART_BRAM_Interfacing_padder_0_1} -quiet] -quiet
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_processing_system7_0_0/UART_BRAM_Interfacing_processing_system7_0_0.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_processing_system7_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_processing_system7_0_0} -quiet] {/inst } ]/inst ] -quiet] -quiet
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_proc_sys_reset_0_0/UART_BRAM_Interfacing_proc_sys_reset_0_0_board.xdc
+set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_proc_sys_reset_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_proc_sys_reset_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_proc_sys_reset_0_0/UART_BRAM_Interfacing_proc_sys_reset_0_0.xdc
+#dup# set_property KEEP_HIERARCHY SOFT [get_cells [split [join [get_cells -hier -filter {REF_NAME==UART_BRAM_Interfacing_proc_sys_reset_0_0 || ORIG_REF_NAME==UART_BRAM_Interfacing_proc_sys_reset_0_0} -quiet] {/U0 } ]/U0 ] -quiet] -quiet
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_blk_mem_gen_0_0_6/UART_BRAM_Interfacing_blk_mem_gen_0_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_1/bd_1034_psr_aclk_0_board.xdc
+# DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_1/bd_1034_psr_aclk_0.xdc
+# DONT_TOUCH constraint suppressed by parent sub-design file.
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_5/bd_1034_s00a2s_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_6/bd_1034_sarn_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_7/bd_1034_srn_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_8/bd_1034_sawn_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_9/bd_1034_swn_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_10/bd_1034_sbn_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/bd_0/ip/ip_11/bd_1034_m00s2a_0_ooc.xdc
+
+# XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/ip/UART_BRAM_Interfacing_smartconnect_1_0/ooc.xdc
 
 # XDC: /home/therk/emb_sys_vivado/bram_assignment/bram_assignment.gen/sources_1/bd/UART_BRAM_Interfacing/UART_BRAM_Interfacing_ooc.xdc

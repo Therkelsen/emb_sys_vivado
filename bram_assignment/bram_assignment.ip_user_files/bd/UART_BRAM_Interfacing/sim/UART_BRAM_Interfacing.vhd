@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
---Date        : Sun Oct  6 19:51:19 2024
+--Date        : Mon Oct  7 10:28:48 2024
 --Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 --Command     : generate_target UART_BRAM_Interfacing.bd
 --Design      : UART_BRAM_Interfacing
@@ -620,6 +620,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity UART_imp_1KX806P is
   port (
     clk_0 : in STD_LOGIC;
+    clk_div : out STD_LOGIC;
     data_out : out STD_LOGIC_VECTOR ( 7 downto 0 );
     rst_0 : in STD_LOGIC;
     sin_0 : in STD_LOGIC
@@ -627,14 +628,14 @@ entity UART_imp_1KX806P is
 end UART_imp_1KX806P;
 
 architecture STRUCTURE of UART_imp_1KX806P is
-  component UART_BRAM_Interfacing_clk_divider_0_0 is
+  component UART_BRAM_Interfacing_clk_divider_0_1 is
   port (
     clk : in STD_LOGIC;
     rst : in STD_LOGIC;
     clk_div : out STD_LOGIC
   );
-  end component UART_BRAM_Interfacing_clk_divider_0_0;
-  component UART_BRAM_Interfacing_rx_mod_0_0 is
+  end component UART_BRAM_Interfacing_clk_divider_0_1;
+  component UART_BRAM_Interfacing_rx_mod_0_1 is
   port (
     clk : in STD_LOGIC;
     rst : in STD_LOGIC;
@@ -642,7 +643,7 @@ architecture STRUCTURE of UART_imp_1KX806P is
     data_out : out STD_LOGIC_VECTOR ( 7 downto 0 );
     intr : out STD_LOGIC
   );
-  end component UART_BRAM_Interfacing_rx_mod_0_0;
+  end component UART_BRAM_Interfacing_rx_mod_0_1;
   signal clk_0_1 : STD_LOGIC;
   signal clk_divider_0_clk_div : STD_LOGIC;
   signal rst_0_1 : STD_LOGIC;
@@ -651,16 +652,17 @@ architecture STRUCTURE of UART_imp_1KX806P is
   signal NLW_rx_mod_0_intr_UNCONNECTED : STD_LOGIC;
 begin
   clk_0_1 <= clk_0;
+  clk_div <= clk_divider_0_clk_div;
   data_out(7 downto 0) <= rx_mod_0_data_out(7 downto 0);
   rst_0_1 <= rst_0;
   sin_0_1 <= sin_0;
-clk_divider_0: component UART_BRAM_Interfacing_clk_divider_0_0
+clk_divider_0: component UART_BRAM_Interfacing_clk_divider_0_1
      port map (
       clk => clk_0_1,
       clk_div => clk_divider_0_clk_div,
       rst => rst_0_1
     );
-rx_mod_0: component UART_BRAM_Interfacing_rx_mod_0_0
+rx_mod_0: component UART_BRAM_Interfacing_rx_mod_0_1
      port map (
       clk => clk_divider_0_clk_div,
       data_out(7 downto 0) => rx_mod_0_data_out(7 downto 0),
@@ -701,18 +703,12 @@ entity UART_BRAM_Interfacing is
     sin_0 : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of UART_BRAM_Interfacing : entity is "UART_BRAM_Interfacing,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=UART_BRAM_Interfacing,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=13,numReposBlks=11,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_ps7_cnt=1,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of UART_BRAM_Interfacing : entity is "UART_BRAM_Interfacing,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=UART_BRAM_Interfacing,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=13,numReposBlks=11,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=Global}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of UART_BRAM_Interfacing : entity is "UART_BRAM_Interfacing.hwdef";
 end UART_BRAM_Interfacing;
 
 architecture STRUCTURE of UART_BRAM_Interfacing is
-  component UART_BRAM_Interfacing_padder_0_0 is
-  port (
-    din : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
-  );
-  end component UART_BRAM_Interfacing_padder_0_0;
   component UART_BRAM_Interfacing_xlconstant_0_1 is
   port (
     dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
@@ -728,6 +724,14 @@ architecture STRUCTURE of UART_BRAM_Interfacing is
     dout : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component UART_BRAM_Interfacing_xlconstant_1_0;
+  component UART_BRAM_Interfacing_padder_0_1 is
+  port (
+    din : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
+  );
+  end component UART_BRAM_Interfacing_padder_0_1;
+  signal UART_clk_div : STD_LOGIC;
+  signal UART_data_out : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal addr_0_dout : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal clk_0_1 : STD_LOGIC;
   signal en_0_dout : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -754,7 +758,6 @@ architecture STRUCTURE of UART_BRAM_Interfacing is
   signal processing_system7_0_FIXED_IO_PS_PORB : STD_LOGIC;
   signal processing_system7_0_FIXED_IO_PS_SRSTB : STD_LOGIC;
   signal rst_0_1 : STD_LOGIC;
-  signal rx_mod_0_data_out : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal sin_0_1 : STD_LOGIC;
   signal web_0_dout : STD_LOGIC_VECTOR ( 3 downto 0 );
   attribute X_INTERFACE_INFO : string;
@@ -814,7 +817,7 @@ PS: entity work.PS_imp_L642LE
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
       addrb(31 downto 0) => addr_0_dout(31 downto 0),
-      clkb => clk_0_1,
+      clkb => UART_clk_div,
       dinb(31 downto 0) => padder_0_dout(31 downto 0),
       enb => en_0_dout(0),
       rstb => rst_0_1,
@@ -823,7 +826,8 @@ PS: entity work.PS_imp_L642LE
 UART: entity work.UART_imp_1KX806P
      port map (
       clk_0 => clk_0_1,
-      data_out(7 downto 0) => rx_mod_0_data_out(7 downto 0),
+      clk_div => UART_clk_div,
+      data_out(7 downto 0) => UART_data_out(7 downto 0),
       rst_0 => rst_0_1,
       sin_0 => sin_0_1
     );
@@ -835,9 +839,9 @@ en_0: component UART_BRAM_Interfacing_xlconstant_0_2
      port map (
       dout(0) => en_0_dout(0)
     );
-padder_0: component UART_BRAM_Interfacing_padder_0_0
+padder_0: component UART_BRAM_Interfacing_padder_0_1
      port map (
-      din(7 downto 0) => rx_mod_0_data_out(7 downto 0),
+      din(7 downto 0) => UART_data_out(7 downto 0),
       dout(31 downto 0) => padder_0_dout(31 downto 0)
     );
 web_0: component UART_BRAM_Interfacing_xlconstant_1_0

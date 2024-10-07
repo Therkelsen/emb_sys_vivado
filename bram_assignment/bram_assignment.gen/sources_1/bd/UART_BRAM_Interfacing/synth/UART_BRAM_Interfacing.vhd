@@ -1,7 +1,7 @@
 --Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2020.2 (lin64) Build 3064766 Wed Nov 18 09:12:47 MST 2020
---Date        : Sun Oct  6 19:51:19 2024
+--Date        : Mon Oct  7 10:49:30 2024
 --Host        : hephaestus running 64-bit Ubuntu 20.04.6 LTS
 --Command     : generate_target UART_BRAM_Interfacing.bd
 --Design      : UART_BRAM_Interfacing
@@ -48,7 +48,7 @@ architecture STRUCTURE of PS_imp_L642LE is
   port (
     s_axi_aclk : in STD_LOGIC;
     s_axi_aresetn : in STD_LOGIC;
-    s_axi_awaddr : in STD_LOGIC_VECTOR ( 14 downto 0 );
+    s_axi_awaddr : in STD_LOGIC_VECTOR ( 12 downto 0 );
     s_axi_awlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_awsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_awburst : in STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -65,7 +65,7 @@ architecture STRUCTURE of PS_imp_L642LE is
     s_axi_bresp : out STD_LOGIC_VECTOR ( 1 downto 0 );
     s_axi_bvalid : out STD_LOGIC;
     s_axi_bready : in STD_LOGIC;
-    s_axi_araddr : in STD_LOGIC_VECTOR ( 14 downto 0 );
+    s_axi_araddr : in STD_LOGIC_VECTOR ( 12 downto 0 );
     s_axi_arlen : in STD_LOGIC_VECTOR ( 7 downto 0 );
     s_axi_arsize : in STD_LOGIC_VECTOR ( 2 downto 0 );
     s_axi_arburst : in STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -83,7 +83,7 @@ architecture STRUCTURE of PS_imp_L642LE is
     bram_clk_a : out STD_LOGIC;
     bram_en_a : out STD_LOGIC;
     bram_we_a : out STD_LOGIC_VECTOR ( 3 downto 0 );
-    bram_addr_a : out STD_LOGIC_VECTOR ( 14 downto 0 );
+    bram_addr_a : out STD_LOGIC_VECTOR ( 12 downto 0 );
     bram_wrdata_a : out STD_LOGIC_VECTOR ( 31 downto 0 );
     bram_rddata_a : in STD_LOGIC_VECTOR ( 31 downto 0 )
   );
@@ -233,7 +233,7 @@ architecture STRUCTURE of PS_imp_L642LE is
     S00_AXI_rlast : out STD_LOGIC;
     S00_AXI_rvalid : out STD_LOGIC;
     S00_AXI_rready : in STD_LOGIC;
-    M00_AXI_awaddr : out STD_LOGIC_VECTOR ( 14 downto 0 );
+    M00_AXI_awaddr : out STD_LOGIC_VECTOR ( 12 downto 0 );
     M00_AXI_awlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
     M00_AXI_awsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     M00_AXI_awburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -251,7 +251,7 @@ architecture STRUCTURE of PS_imp_L642LE is
     M00_AXI_bresp : in STD_LOGIC_VECTOR ( 1 downto 0 );
     M00_AXI_bvalid : in STD_LOGIC;
     M00_AXI_bready : out STD_LOGIC;
-    M00_AXI_araddr : out STD_LOGIC_VECTOR ( 14 downto 0 );
+    M00_AXI_araddr : out STD_LOGIC_VECTOR ( 12 downto 0 );
     M00_AXI_arlen : out STD_LOGIC_VECTOR ( 7 downto 0 );
     M00_AXI_arsize : out STD_LOGIC_VECTOR ( 2 downto 0 );
     M00_AXI_arburst : out STD_LOGIC_VECTOR ( 1 downto 0 );
@@ -269,7 +269,7 @@ architecture STRUCTURE of PS_imp_L642LE is
   );
   end component UART_BRAM_Interfacing_smartconnect_1_0;
   signal addrb_1 : STD_LOGIC_VECTOR ( 31 downto 0 );
-  signal axi_bram_ctrl_0_BRAM_PORTA_ADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
+  signal axi_bram_ctrl_0_BRAM_PORTA_ADDR : STD_LOGIC_VECTOR ( 12 downto 0 );
   signal axi_bram_ctrl_0_BRAM_PORTA_CLK : STD_LOGIC;
   signal axi_bram_ctrl_0_BRAM_PORTA_DIN : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal axi_bram_ctrl_0_BRAM_PORTA_DOUT : STD_LOGIC_VECTOR ( 31 downto 0 );
@@ -342,7 +342,7 @@ architecture STRUCTURE of PS_imp_L642LE is
   signal processing_system7_0_M_AXI_GP0_WSTRB : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal processing_system7_0_M_AXI_GP0_WVALID : STD_LOGIC;
   signal rstb_1 : STD_LOGIC;
-  signal smartconnect_1_M00_AXI_ARADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
+  signal smartconnect_1_M00_AXI_ARADDR : STD_LOGIC_VECTOR ( 12 downto 0 );
   signal smartconnect_1_M00_AXI_ARBURST : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal smartconnect_1_M00_AXI_ARCACHE : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal smartconnect_1_M00_AXI_ARLEN : STD_LOGIC_VECTOR ( 7 downto 0 );
@@ -351,7 +351,7 @@ architecture STRUCTURE of PS_imp_L642LE is
   signal smartconnect_1_M00_AXI_ARREADY : STD_LOGIC;
   signal smartconnect_1_M00_AXI_ARSIZE : STD_LOGIC_VECTOR ( 2 downto 0 );
   signal smartconnect_1_M00_AXI_ARVALID : STD_LOGIC;
-  signal smartconnect_1_M00_AXI_AWADDR : STD_LOGIC_VECTOR ( 14 downto 0 );
+  signal smartconnect_1_M00_AXI_AWADDR : STD_LOGIC_VECTOR ( 12 downto 0 );
   signal smartconnect_1_M00_AXI_AWBURST : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal smartconnect_1_M00_AXI_AWCACHE : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal smartconnect_1_M00_AXI_AWLEN : STD_LOGIC_VECTOR ( 7 downto 0 );
@@ -385,6 +385,13 @@ architecture STRUCTURE of PS_imp_L642LE is
   signal NLW_processing_system7_0_USB0_PORT_INDCTL_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
   signal NLW_smartconnect_1_M00_AXI_arqos_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_smartconnect_1_M00_AXI_awqos_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
+  attribute BMM_INFO_ADDRESS_SPACE : string;
+  attribute BMM_INFO_ADDRESS_SPACE of axi_bram_ctrl_0 : label is "byte  0x40000000 32 > UART_BRAM_Interfacing PS/blk_mem_gen_0_0";
+  attribute KEEP_HIERARCHY : string;
+  attribute KEEP_HIERARCHY of axi_bram_ctrl_0 : label is "yes";
+  attribute BMM_INFO_PROCESSOR : string;
+  attribute BMM_INFO_PROCESSOR of processing_system7_0 : label is "arm > UART_BRAM_Interfacing PS/axi_bram_ctrl_0";
+  attribute KEEP_HIERARCHY of processing_system7_0 : label is "yes";
 begin
   addrb_1(31 downto 0) <= addrb(31 downto 0);
   clkb_1 <= clkb;
@@ -394,7 +401,7 @@ begin
   web_1(3 downto 0) <= web(3 downto 0);
 axi_bram_ctrl_0: component UART_BRAM_Interfacing_axi_bram_ctrl_0_0
      port map (
-      bram_addr_a(14 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_ADDR(14 downto 0),
+      bram_addr_a(12 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_ADDR(12 downto 0),
       bram_clk_a => axi_bram_ctrl_0_BRAM_PORTA_CLK,
       bram_en_a => axi_bram_ctrl_0_BRAM_PORTA_EN,
       bram_rddata_a(31 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_DOUT(31 downto 0),
@@ -402,7 +409,7 @@ axi_bram_ctrl_0: component UART_BRAM_Interfacing_axi_bram_ctrl_0_0
       bram_we_a(3 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_WE(3 downto 0),
       bram_wrdata_a(31 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_DIN(31 downto 0),
       s_axi_aclk => processing_system7_0_FCLK_CLK0,
-      s_axi_araddr(14 downto 0) => smartconnect_1_M00_AXI_ARADDR(14 downto 0),
+      s_axi_araddr(12 downto 0) => smartconnect_1_M00_AXI_ARADDR(12 downto 0),
       s_axi_arburst(1 downto 0) => smartconnect_1_M00_AXI_ARBURST(1 downto 0),
       s_axi_arcache(3 downto 0) => smartconnect_1_M00_AXI_ARCACHE(3 downto 0),
       s_axi_aresetn => proc_sys_reset_0_peripheral_aresetn(0),
@@ -412,7 +419,7 @@ axi_bram_ctrl_0: component UART_BRAM_Interfacing_axi_bram_ctrl_0_0
       s_axi_arready => smartconnect_1_M00_AXI_ARREADY,
       s_axi_arsize(2 downto 0) => smartconnect_1_M00_AXI_ARSIZE(2 downto 0),
       s_axi_arvalid => smartconnect_1_M00_AXI_ARVALID,
-      s_axi_awaddr(14 downto 0) => smartconnect_1_M00_AXI_AWADDR(14 downto 0),
+      s_axi_awaddr(12 downto 0) => smartconnect_1_M00_AXI_AWADDR(12 downto 0),
       s_axi_awburst(1 downto 0) => smartconnect_1_M00_AXI_AWBURST(1 downto 0),
       s_axi_awcache(3 downto 0) => smartconnect_1_M00_AXI_AWCACHE(3 downto 0),
       s_axi_awlen(7 downto 0) => smartconnect_1_M00_AXI_AWLEN(7 downto 0),
@@ -437,8 +444,8 @@ axi_bram_ctrl_0: component UART_BRAM_Interfacing_axi_bram_ctrl_0_0
     );
 blk_mem_gen_0_0: component UART_BRAM_Interfacing_blk_mem_gen_0_0
      port map (
-      addra(31 downto 15) => B"00000000000000000",
-      addra(14 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_ADDR(14 downto 0),
+      addra(31 downto 13) => B"0000000000000000000",
+      addra(12 downto 0) => axi_bram_ctrl_0_BRAM_PORTA_ADDR(12 downto 0),
       addrb(31 downto 0) => addrb_1(31 downto 0),
       clka => axi_bram_ctrl_0_BRAM_PORTA_CLK,
       clkb => clkb_1,
@@ -538,7 +545,7 @@ processing_system7_0: component UART_BRAM_Interfacing_processing_system7_0_0
     );
 smartconnect_1: component UART_BRAM_Interfacing_smartconnect_1_0
      port map (
-      M00_AXI_araddr(14 downto 0) => smartconnect_1_M00_AXI_ARADDR(14 downto 0),
+      M00_AXI_araddr(12 downto 0) => smartconnect_1_M00_AXI_ARADDR(12 downto 0),
       M00_AXI_arburst(1 downto 0) => smartconnect_1_M00_AXI_ARBURST(1 downto 0),
       M00_AXI_arcache(3 downto 0) => smartconnect_1_M00_AXI_ARCACHE(3 downto 0),
       M00_AXI_arlen(7 downto 0) => smartconnect_1_M00_AXI_ARLEN(7 downto 0),
@@ -548,7 +555,7 @@ smartconnect_1: component UART_BRAM_Interfacing_smartconnect_1_0
       M00_AXI_arready => smartconnect_1_M00_AXI_ARREADY,
       M00_AXI_arsize(2 downto 0) => smartconnect_1_M00_AXI_ARSIZE(2 downto 0),
       M00_AXI_arvalid => smartconnect_1_M00_AXI_ARVALID,
-      M00_AXI_awaddr(14 downto 0) => smartconnect_1_M00_AXI_AWADDR(14 downto 0),
+      M00_AXI_awaddr(12 downto 0) => smartconnect_1_M00_AXI_AWADDR(12 downto 0),
       M00_AXI_awburst(1 downto 0) => smartconnect_1_M00_AXI_AWBURST(1 downto 0),
       M00_AXI_awcache(3 downto 0) => smartconnect_1_M00_AXI_AWCACHE(3 downto 0),
       M00_AXI_awlen(7 downto 0) => smartconnect_1_M00_AXI_AWLEN(7 downto 0),
@@ -620,6 +627,7 @@ use UNISIM.VCOMPONENTS.ALL;
 entity UART_imp_1KX806P is
   port (
     clk_0 : in STD_LOGIC;
+    clk_div : out STD_LOGIC;
     data_out : out STD_LOGIC_VECTOR ( 7 downto 0 );
     rst_0 : in STD_LOGIC;
     sin_0 : in STD_LOGIC
@@ -627,14 +635,14 @@ entity UART_imp_1KX806P is
 end UART_imp_1KX806P;
 
 architecture STRUCTURE of UART_imp_1KX806P is
-  component UART_BRAM_Interfacing_clk_divider_0_0 is
+  component UART_BRAM_Interfacing_clk_divider_0_1 is
   port (
     clk : in STD_LOGIC;
     rst : in STD_LOGIC;
     clk_div : out STD_LOGIC
   );
-  end component UART_BRAM_Interfacing_clk_divider_0_0;
-  component UART_BRAM_Interfacing_rx_mod_0_0 is
+  end component UART_BRAM_Interfacing_clk_divider_0_1;
+  component UART_BRAM_Interfacing_rx_mod_0_1 is
   port (
     clk : in STD_LOGIC;
     rst : in STD_LOGIC;
@@ -642,7 +650,7 @@ architecture STRUCTURE of UART_imp_1KX806P is
     data_out : out STD_LOGIC_VECTOR ( 7 downto 0 );
     intr : out STD_LOGIC
   );
-  end component UART_BRAM_Interfacing_rx_mod_0_0;
+  end component UART_BRAM_Interfacing_rx_mod_0_1;
   signal clk_0_1 : STD_LOGIC;
   signal clk_divider_0_clk_div : STD_LOGIC;
   signal rst_0_1 : STD_LOGIC;
@@ -651,16 +659,17 @@ architecture STRUCTURE of UART_imp_1KX806P is
   signal NLW_rx_mod_0_intr_UNCONNECTED : STD_LOGIC;
 begin
   clk_0_1 <= clk_0;
+  clk_div <= clk_divider_0_clk_div;
   data_out(7 downto 0) <= rx_mod_0_data_out(7 downto 0);
   rst_0_1 <= rst_0;
   sin_0_1 <= sin_0;
-clk_divider_0: component UART_BRAM_Interfacing_clk_divider_0_0
+clk_divider_0: component UART_BRAM_Interfacing_clk_divider_0_1
      port map (
       clk => clk_0_1,
       clk_div => clk_divider_0_clk_div,
       rst => rst_0_1
     );
-rx_mod_0: component UART_BRAM_Interfacing_rx_mod_0_0
+rx_mod_0: component UART_BRAM_Interfacing_rx_mod_0_1
      port map (
       clk => clk_divider_0_clk_div,
       data_out(7 downto 0) => rx_mod_0_data_out(7 downto 0),
@@ -701,18 +710,12 @@ entity UART_BRAM_Interfacing is
     sin_0 : in STD_LOGIC
   );
   attribute CORE_GENERATION_INFO : string;
-  attribute CORE_GENERATION_INFO of UART_BRAM_Interfacing : entity is "UART_BRAM_Interfacing,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=UART_BRAM_Interfacing,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=13,numReposBlks=11,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_ps7_cnt=1,synth_mode=OOC_per_IP}";
+  attribute CORE_GENERATION_INFO of UART_BRAM_Interfacing : entity is "UART_BRAM_Interfacing,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=UART_BRAM_Interfacing,x_ipVersion=1.00.a,x_ipLanguage=VHDL,numBlks=13,numReposBlks=11,numNonXlnxBlks=0,numHierBlks=2,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=3,numPkgbdBlks=0,bdsource=USER,da_clkrst_cnt=3,da_ps7_cnt=1,synth_mode=Global}";
   attribute HW_HANDOFF : string;
   attribute HW_HANDOFF of UART_BRAM_Interfacing : entity is "UART_BRAM_Interfacing.hwdef";
 end UART_BRAM_Interfacing;
 
 architecture STRUCTURE of UART_BRAM_Interfacing is
-  component UART_BRAM_Interfacing_padder_0_0 is
-  port (
-    din : in STD_LOGIC_VECTOR ( 7 downto 0 );
-    dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
-  );
-  end component UART_BRAM_Interfacing_padder_0_0;
   component UART_BRAM_Interfacing_xlconstant_0_1 is
   port (
     dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
@@ -728,6 +731,14 @@ architecture STRUCTURE of UART_BRAM_Interfacing is
     dout : out STD_LOGIC_VECTOR ( 3 downto 0 )
   );
   end component UART_BRAM_Interfacing_xlconstant_1_0;
+  component UART_BRAM_Interfacing_padder_0_1 is
+  port (
+    din : in STD_LOGIC_VECTOR ( 7 downto 0 );
+    dout : out STD_LOGIC_VECTOR ( 31 downto 0 )
+  );
+  end component UART_BRAM_Interfacing_padder_0_1;
+  signal UART_clk_div : STD_LOGIC;
+  signal UART_data_out : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal addr_0_dout : STD_LOGIC_VECTOR ( 31 downto 0 );
   signal clk_0_1 : STD_LOGIC;
   signal en_0_dout : STD_LOGIC_VECTOR ( 0 to 0 );
@@ -754,7 +765,6 @@ architecture STRUCTURE of UART_BRAM_Interfacing is
   signal processing_system7_0_FIXED_IO_PS_PORB : STD_LOGIC;
   signal processing_system7_0_FIXED_IO_PS_SRSTB : STD_LOGIC;
   signal rst_0_1 : STD_LOGIC;
-  signal rx_mod_0_data_out : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal sin_0_1 : STD_LOGIC;
   signal web_0_dout : STD_LOGIC_VECTOR ( 3 downto 0 );
   attribute X_INTERFACE_INFO : string;
@@ -814,7 +824,7 @@ PS: entity work.PS_imp_L642LE
       FIXED_IO_ps_porb => FIXED_IO_ps_porb,
       FIXED_IO_ps_srstb => FIXED_IO_ps_srstb,
       addrb(31 downto 0) => addr_0_dout(31 downto 0),
-      clkb => clk_0_1,
+      clkb => UART_clk_div,
       dinb(31 downto 0) => padder_0_dout(31 downto 0),
       enb => en_0_dout(0),
       rstb => rst_0_1,
@@ -823,7 +833,8 @@ PS: entity work.PS_imp_L642LE
 UART: entity work.UART_imp_1KX806P
      port map (
       clk_0 => clk_0_1,
-      data_out(7 downto 0) => rx_mod_0_data_out(7 downto 0),
+      clk_div => UART_clk_div,
+      data_out(7 downto 0) => UART_data_out(7 downto 0),
       rst_0 => rst_0_1,
       sin_0 => sin_0_1
     );
@@ -835,9 +846,9 @@ en_0: component UART_BRAM_Interfacing_xlconstant_0_2
      port map (
       dout(0) => en_0_dout(0)
     );
-padder_0: component UART_BRAM_Interfacing_padder_0_0
+padder_0: component UART_BRAM_Interfacing_padder_0_1
      port map (
-      din(7 downto 0) => rx_mod_0_data_out(7 downto 0),
+      din(7 downto 0) => UART_data_out(7 downto 0),
       dout(31 downto 0) => padder_0_dout(31 downto 0)
     );
 web_0: component UART_BRAM_Interfacing_xlconstant_1_0

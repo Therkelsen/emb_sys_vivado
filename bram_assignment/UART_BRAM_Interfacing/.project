@@ -3,7 +3,7 @@
 	<name>UART_BRAM_Interfacing</name>
 	<comment>Created by Vitis v2020.2</comment>
 	<projects>
-		<project>UART_BRAM_Interfacing_wrapper</project>
+		<project>UART_BRAM_Interfacing_wrapper_1</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
