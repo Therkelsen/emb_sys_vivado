@@ -762,3 +762,3794 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launch
 
 !ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:26:02.323
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:21.311
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:21.314
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:21.314
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:21.316
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 11:29:21.316
+!MESSAGE Generating MD5 hash for file: /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:21.317
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:21.319
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:48.657
+!MESSAGE XSCT Command: [disconnect tcfchan#6], Thread: Thread-303
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:48.660
+!MESSAGE XSCT command with result: [disconnect tcfchan#6], Result: [null, ]. Thread: Thread-303
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.661
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.668
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#8]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.669
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.683
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.683
+!MESSAGE XSCT Command: [version -server], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.685
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.686
+!MESSAGE XSCT Command: [version], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.687
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.688
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.696
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.696
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.711
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.712
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.717
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.717
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.732
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.732
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.738
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.738
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.752
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.752
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.758
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.758
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.772
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.773
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.778
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.778
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.792
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.792
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.798
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.798
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.812
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.812
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.827
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.827
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.830
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.830
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.842
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.842
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.900
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:49.901
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.902
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.922
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.927
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.928
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.943
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.943
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.975
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:52.975
+!MESSAGE XSCT Command: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.296
+!MESSAGE XSCT command with result: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.302
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.313
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.313
+!MESSAGE XSCT Command: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.323
+!MESSAGE XSCT command with result: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, UART_BRAM_Interfacing_wrapper_2]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.323
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.324
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.325
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.334
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.334
+!MESSAGE XSCT Command: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.336
+!MESSAGE XSCT command with result: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.336
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.624
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.625
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.634
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.635
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.648
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.649
+!MESSAGE XSCT Command: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.768
+!MESSAGE XSCT command with result: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.768
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.793
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.802
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.815
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.815
+!MESSAGE XSCT Command: [con], Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:29:55.835
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-3: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:39.310
+!MESSAGE XSCT Command: [::hsi::utils::closehw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:39.326
+!MESSAGE XSCT command with result: [::hsi::utils::closehw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:39.327
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.258
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.258
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.260
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.261
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.262
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 11:31:40.262
+!MESSAGE Generating MD5 hash for file: /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.263
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:40.264
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:41.015
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:31:41.021
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"PS_axi_bram_ctrl_0": {"hier_name": "PS_axi_bram_ctrl_0",
+"type": "axi_bram_ctrl",
+"version": "4.1",
+"ip_type": "MEMORY_CNTLR",
+},
+"PS_blk_mem_gen_0_0": {"hier_name": "PS_blk_mem_gen_0_0",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"PS_proc_sys_reset_0": {"hier_name": "PS_proc_sys_reset_0",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"PS_processing_system7_0": {"hier_name": "PS_processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"PS_smartconnect_1": {"hier_name": "PS_smartconnect_1",
+"type": "smartconnect",
+"version": "1.0",
+"ip_type": "BUS",
+},
+"UART_clk_divider_0": {"hier_name": "UART_clk_divider_0",
+"type": "clk_divider",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"UART_rx_mod_0": {"hier_name": "UART_rx_mod_0",
+"type": "rx_mod",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"addr_0": {"hier_name": "addr_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"en_0": {"hier_name": "en_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"padder_0": {"hier_name": "padder_0",
+"type": "padder",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"web_0": {"hier_name": "web_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-9: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:21.801
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:21.803
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Mon Oct  7 10:49:31 2024",
+"vivado_version": "2020.2",
+"part": "xc7z020clg400-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:23.086
+!MESSAGE XSCT Command: [disconnect tcfchan#8], Thread: Thread-372
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:23.090
+!MESSAGE XSCT command with result: [disconnect tcfchan#8], Result: [null, ]. Thread: Thread-372
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.091
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.097
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.098
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.106
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Result: [null, {"PS_axi_bram_ctrl_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.107
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.116
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"PS_axi_bram_ctrl_0_S_AXI_Mem0": {"name": "PS_axi_bram_ctrl_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.117
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.118
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.118
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.120
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.120
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.122
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.122
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.124
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.124
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.125
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.126
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.127
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.128
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.130
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.130
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.135
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Result: [null, {"PS_axi_bram_ctrl_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.136
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.142
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"PS_axi_bram_ctrl_0_S_AXI_Mem0": {"name": "PS_axi_bram_ctrl_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.143
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.145
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.145
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.146
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.146
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.148
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.148
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.149
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.149
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.151
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.151
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.152
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.153
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.154
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Result: [null, PS_axi_bram_ctrl_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.155
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa bit], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.156
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa bit], Result: [null, UART_BRAM_Interfacing_wrapper.bit]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.156
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.161
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.161
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.174
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.174
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.177
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.177
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.179
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.179
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.186
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.186
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.198
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.198
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.203
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.203
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.212
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.212
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.216
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.216
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.225
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.226
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.230
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.230
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.238
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.239
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.243
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.244
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.252
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.252
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.256
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.257
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.265
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.266
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.275
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.275
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.277
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.277
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.288
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.288
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.346
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:24.346
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.350
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.368
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.374
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.374
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.383
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.383
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.403
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:27.403
+!MESSAGE XSCT Command: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.726
+!MESSAGE XSCT command with result: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.743
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.751
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.752
+!MESSAGE XSCT Command: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.779
+!MESSAGE XSCT command with result: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, UART_BRAM_Interfacing_wrapper_3]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.779
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.781
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.781
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.787
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.787
+!MESSAGE XSCT Command: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.788
+!MESSAGE XSCT command with result: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:29.788
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.030
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.031
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.038
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.039
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.048
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.048
+!MESSAGE XSCT Command: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.174
+!MESSAGE XSCT command with result: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.175
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.197
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.209
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.220
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.220
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:32:30.243
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY org.eclipse.ui 2 2 2024-10-07 11:35:28.791
+!MESSAGE Invalid preference category path: com.xilinx.sdk.ui.preferences.page (bundle: com.xilinx.sdk.ui.customize, page: com.xilinx.sdk.ui.customize.sdkCustomizationPreferences)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:31.245
+!MESSAGE XSCT Command: [disconnect tcfchan#12], Thread: Thread-460
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:31.250
+!MESSAGE XSCT command with result: [disconnect tcfchan#12], Result: [null, ]. Thread: Thread-460
+!SESSION 2024-10-07 11:37:38.373 -----------------------------------------------
+eclipse.buildId=2020.2
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2024-10-07 11:37:41.698
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:45.196
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:45.197
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:45.200
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:45.200
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:45.201
+!MESSAGE XSCT Command: [setws /home/therk/emb_sys_vivado/bram_assignment], Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:45.202
+!MESSAGE XSCT command with result: [setws /home/therk/emb_sys_vivado/bram_assignment], Result: [null, ]. Thread: Thread-17
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:46.802
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:46.915
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:46.916
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:37:46.918
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, /tools/Xilinx/Vitis/2020.2/data]. Thread: Worker-3: Initializing s/w repositories
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-10-07 11:37:49.801
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-10-07 11:37:49.801
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2024-10-07 11:37:49.802
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.ui 2 2 2024-10-07 11:37:58.197
+!MESSAGE Invalid preference category path: com.xilinx.sdk.ui.preferences.page (bundle: com.xilinx.sdk.ui.customize, page: com.xilinx.sdk.ui.customize.sdkCustomizationPreferences)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:14.877
+!MESSAGE XSCT Command: [::hsi::utils::openhw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.122
+!MESSAGE XSCT command with result: [::hsi::utils::openhw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.123
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.125
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"device": "7z020",
+"family": "zynq",
+"timestamp": "Mon Oct  7 10:49:31 2024",
+"vivado_version": "2020.2",
+"part": "xc7z020clg400-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.205
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.218
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"PS_axi_bram_ctrl_0": {"hier_name": "PS_axi_bram_ctrl_0",
+"type": "axi_bram_ctrl",
+"version": "4.1",
+"ip_type": "MEMORY_CNTLR",
+},
+"PS_blk_mem_gen_0_0": {"hier_name": "PS_blk_mem_gen_0_0",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"PS_proc_sys_reset_0": {"hier_name": "PS_proc_sys_reset_0",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"PS_processing_system7_0": {"hier_name": "PS_processing_system7_0",
+"type": "processing_system7",
+"version": "5.5",
+"ip_type": "",
+},
+"PS_smartconnect_1": {"hier_name": "PS_smartconnect_1",
+"type": "smartconnect",
+"version": "1.0",
+"ip_type": "BUS",
+},
+"UART_clk_divider_0": {"hier_name": "UART_clk_divider_0",
+"type": "clk_divider",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"UART_rx_mod_0": {"hier_name": "UART_rx_mod_0",
+"type": "rx_mod",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"addr_0": {"hier_name": "addr_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"en_0": {"hier_name": "en_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"padder_0": {"hier_name": "padder_0",
+"type": "padder",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"web_0": {"hier_name": "web_0",
+"type": "xlconstant",
+"version": "1.1",
+"ip_type": "PERIPHERAL",
+},
+"ps7_clockc_0": {"hier_name": "ps7_clockc_0",
+"type": "ps7_clockc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_uart_0": {"hier_name": "ps7_uart_0",
+"type": "ps7_uart",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pl310_0": {"hier_name": "ps7_pl310_0",
+"type": "ps7_pl310",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_pmu_0": {"hier_name": "ps7_pmu_0",
+"type": "ps7_pmu",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_0": {"hier_name": "ps7_qspi_0",
+"type": "ps7_qspi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_qspi_linear_0": {"hier_name": "ps7_qspi_linear_0",
+"type": "ps7_qspi_linear",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_axi_interconnect_0": {"hier_name": "ps7_axi_interconnect_0",
+"type": "ps7_axi_interconnect",
+"version": "1.00.a",
+"ip_type": "BUS",
+},
+"ps7_cortexa9_0": {"hier_name": "ps7_cortexa9_0",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_cortexa9_1": {"hier_name": "ps7_cortexa9_1",
+"type": "ps7_cortexa9",
+"version": "5.2",
+"ip_type": "PROCESSOR",
+},
+"ps7_ddr_0": {"hier_name": "ps7_ddr_0",
+"type": "ps7_ddr",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ethernet_0": {"hier_name": "ps7_ethernet_0",
+"type": "ps7_ethernet",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_usb_0": {"hier_name": "ps7_usb_0",
+"type": "ps7_usb",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_sd_0": {"hier_name": "ps7_sd_0",
+"type": "ps7_sdio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpio_0": {"hier_name": "ps7_gpio_0",
+"type": "ps7_gpio",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ddrc_0": {"hier_name": "ps7_ddrc_0",
+"type": "ps7_ddrc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dev_cfg_0": {"hier_name": "ps7_dev_cfg_0",
+"type": "ps7_dev_cfg",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_xadc_0": {"hier_name": "ps7_xadc_0",
+"type": "ps7_xadc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ocmc_0": {"hier_name": "ps7_ocmc_0",
+"type": "ps7_ocmc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_coresight_comp_0": {"hier_name": "ps7_coresight_comp_0",
+"type": "ps7_coresight_comp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_gpv_0": {"hier_name": "ps7_gpv_0",
+"type": "ps7_gpv",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuc_0": {"hier_name": "ps7_scuc_0",
+"type": "ps7_scuc",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_globaltimer_0": {"hier_name": "ps7_globaltimer_0",
+"type": "ps7_globaltimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_intc_dist_0": {"hier_name": "ps7_intc_dist_0",
+"type": "ps7_intc_dist",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_l2cachec_0": {"hier_name": "ps7_l2cachec_0",
+"type": "ps7_l2cachec",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_s": {"hier_name": "ps7_dma_s",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_iop_bus_config_0": {"hier_name": "ps7_iop_bus_config_0",
+"type": "ps7_iop_bus_config",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_ram_0": {"hier_name": "ps7_ram_0",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_ram_1": {"hier_name": "ps7_ram_1",
+"type": "ps7_ram",
+"version": "1.00.a",
+"ip_type": "MEMORY_CNTLR",
+},
+"ps7_scugic_0": {"hier_name": "ps7_scugic_0",
+"type": "ps7_scugic",
+"version": "1.00.a",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"ps7_scutimer_0": {"hier_name": "ps7_scutimer_0",
+"type": "ps7_scutimer",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_scuwdt_0": {"hier_name": "ps7_scuwdt_0",
+"type": "ps7_scuwdt",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_slcr_0": {"hier_name": "ps7_slcr_0",
+"type": "ps7_slcr",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_dma_ns": {"hier_name": "ps7_dma_ns",
+"type": "ps7_dma",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_0": {"hier_name": "ps7_afi_0",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_1": {"hier_name": "ps7_afi_1",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_2": {"hier_name": "ps7_afi_2",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_afi_3": {"hier_name": "ps7_afi_3",
+"type": "ps7_afi",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+"ps7_m_axi_gp0": {"hier_name": "ps7_m_axi_gp0",
+"type": "ps7_m_axi_gp",
+"version": "1.00.a",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.222
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.228
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "650",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "16 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "525",
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.229
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.240
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Result: [null, {"PS_axi_bram_ctrl_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.240
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.256
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"PS_axi_bram_ctrl_0_S_AXI_Mem0": {"name": "PS_axi_bram_ctrl_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.258
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.260
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.261
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.263
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.263
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.265
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.265
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.268
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.268
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_FREQ], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.270
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.270
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.272
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.273
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.276
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.276
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.286
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Result: [null, {"PS_axi_bram_ctrl_0": {},
+"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_ethernet_0": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_sd_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_0": {},
+"ps7_usb_0": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.286
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.302
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ethernet_0": {"name": "ps7_ethernet_0",
+"base": "0xE000B000",
+"high": "0xE000BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_sd_0": {"name": "ps7_sd_0",
+"base": "0xE0100000",
+"high": "0xE0100FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_0": {"name": "ps7_uart_0",
+"base": "0xE0000000",
+"high": "0xE0000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_usb_0": {"name": "ps7_usb_0",
+"base": "0xE0002000",
+"high": "0xE0002FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"PS_axi_bram_ctrl_0_S_AXI_Mem0": {"name": "PS_axi_bram_ctrl_0",
+"base": "0x40000000",
+"high": "0x40001FFF",
+"size": "8192",
+"slaveintf": "S_AXI",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem0",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.303
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.305
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.305
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.307
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.307
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.308
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.308
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.310
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.310
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_FREQ], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.312
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.312
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.314
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 650000000]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.315
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.317
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa ps7_cortexa9_0], Result: [null, PS_axi_bram_ctrl_0 ps7_afi_0 ps7_afi_1 ps7_afi_2 ps7_afi_3 ps7_coresight_comp_0 ps7_ddr_0 ps7_ddrc_0 ps7_dev_cfg_0 ps7_dma_ns ps7_dma_s ps7_ethernet_0 ps7_globaltimer_0 ps7_gpio_0 ps7_gpv_0 ps7_intc_dist_0 ps7_iop_bus_config_0 ps7_l2cachec_0 ps7_ocmc_0 ps7_pl310_0 ps7_pmu_0 ps7_qspi_0 ps7_qspi_linear_0 ps7_ram_0 ps7_ram_1 ps7_scuc_0 ps7_scugic_0 ps7_scutimer_0 ps7_scuwdt_0 ps7_sd_0 ps7_slcr_0 ps7_uart_0 ps7_usb_0 ps7_xadc_0]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.318
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa bit], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.320
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa bit], Result: [null, UART_BRAM_Interfacing_wrapper.bit]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.322
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.328
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.329
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.375
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.376
+!MESSAGE XSCT Command: [version -server], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.380
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.380
+!MESSAGE XSCT Command: [version], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.382
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.385
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.393
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.394
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.413
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.416
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.424
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.424
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.441
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.442
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.450
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.451
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.467
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.470
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.476
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.476
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.492
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.493
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.500
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.501
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.517
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.517
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.524
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Xilinx TUL 1234-tulA]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.524
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.540
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.541
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.557
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.558
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.561
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.562
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.575
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.576
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.632
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:16.632
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.634
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.658
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.664
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.665
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.674
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.678
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.695
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:19.695
+!MESSAGE XSCT Command: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.020
+!MESSAGE XSCT command with result: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.025
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.038
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.039
+!MESSAGE XSCT Command: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.085
+!MESSAGE XSCT command with result: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, UART_BRAM_Interfacing_wrapper]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.086
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.088
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.089
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.096
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.096
+!MESSAGE XSCT Command: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.097
+!MESSAGE XSCT command with result: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.098
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.333
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.334
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.343
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.343
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.351
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.352
+!MESSAGE XSCT Command: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.464
+!MESSAGE XSCT command with result: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.464
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.484
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.516
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.523
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.524
+!MESSAGE XSCT Command: [con], Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:40:22.538
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-7: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:42.241
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:42.244
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:42.244
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:42.247
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 11:42:42.247
+!MESSAGE Generating MD5 hash for file: /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:42.252
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:42.254
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-1: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:52.728
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-124
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:52.736
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-124
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.737
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.745
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.745
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.755
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.755
+!MESSAGE XSCT Command: [version -server], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.757
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.757
+!MESSAGE XSCT Command: [version], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.758
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.759
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.763
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.763
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.772
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.773
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.777
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.777
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.787
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.788
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.792
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.792
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.801
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.802
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.806
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.806
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.815
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.815
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.820
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.820
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.828
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.829
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.833
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.833
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.842
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.842
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.852
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.852
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.854
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.855
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.866
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.867
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.921
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:53.922
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.926
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.938
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.944
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.944
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.953
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.954
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.971
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:56.971
+!MESSAGE XSCT Command: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:59.295
+!MESSAGE XSCT command with result: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:59.303
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:59.310
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:42:59.310
+!MESSAGE XSCT Command: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.186
+!MESSAGE XSCT command with result: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, UART_BRAM_Interfacing_wrapper_0]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.186
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.188
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.188
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.194
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.194
+!MESSAGE XSCT Command: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.195
+!MESSAGE XSCT command with result: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.195
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.427
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.427
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.433
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.433
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.443
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.443
+!MESSAGE XSCT Command: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.543
+!MESSAGE XSCT command with result: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.543
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.566
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.575
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.584
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.584
+!MESSAGE XSCT Command: [con], Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:43:00.604
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-0: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:13.975
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:13.978
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:13.978
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:13.981
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "7.3",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-07 11:45:13.981
+!MESSAGE Generating MD5 hash for file: /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:13.982
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:13.984
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/sw/UART_BRAM_Interfacing_wrapper_1/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:21.601
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-186
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:21.605
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-186
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.605
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.610
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#5]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.610
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.621
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.621
+!MESSAGE XSCT Command: [version -server], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.624
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2020.2]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.624
+!MESSAGE XSCT Command: [version], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.626
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2020.2
+SW Build 3064766 on Wed Nov 18 09:12:47 MST 2020
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.626
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.633
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.634
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.651
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.652
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.657
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.657
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.667
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.668
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.672
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.673
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.683
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.683
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.689
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.690
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.700
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.700
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.705
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.705
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.716
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.716
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.723
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.723
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.736
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.736
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.747
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx TUL 1234-tulA" && level == 0}], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.748
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.751
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.751
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.766
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.766
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.821
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:22.822
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.826
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.843
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.849
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx TUL 1234-tulA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.849
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.857
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.858
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.876
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx TUL 1234-tulA" && level==0 && jtag_device_ctx=="jsn-TUL-1234-tulA-23727093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:25.876
+!MESSAGE XSCT Command: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:28.196
+!MESSAGE XSCT command with result: [fpga -file /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/bitstream/UART_BRAM_Interfacing_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:28.201
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:28.211
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:28.211
+!MESSAGE XSCT Command: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.204
+!MESSAGE XSCT command with result: [loadhw -hw /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing_wrapper_1/export/UART_BRAM_Interfacing_wrapper_1/hw/UART_BRAM_Interfacing_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, UART_BRAM_Interfacing_wrapper_1]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.204
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.206
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.206
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.212
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.212
+!MESSAGE XSCT Command: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.214
+!MESSAGE XSCT command with result: [source /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.214
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.447
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.448
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.456
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.456
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.465
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.465
+!MESSAGE XSCT Command: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.580
+!MESSAGE XSCT command with result: [dow /home/therk/emb_sys_vivado/bram_assignment/UART_BRAM_Interfacing/Debug/UART_BRAM_Interfacing.elf], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.581
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.602
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.610
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.623
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.623
+!MESSAGE XSCT Command: [con], Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:45:29.651
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-1: Launching Debugger_UART_BRAM_Interfacing-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:47:18.570
+!MESSAGE XSCT Command: [disconnect tcfchan#5], Thread: Thread-238
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-07 11:47:18.574
+!MESSAGE XSCT command with result: [disconnect tcfchan#5], Result: [null, ]. Thread: Thread-238

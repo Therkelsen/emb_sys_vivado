@@ -1,4 +1,4 @@
-11:25:14 **** Incremental Build of configuration Debug for project UART_BRAM_Interfacing ****
+11:45:13 **** Incremental Build of configuration Debug for project UART_BRAM_Interfacing ****
 make all 
 make --no-print-directory pre-build
 a9-linaro-pre-build-step
@@ -17,9 +17,9 @@ Finished building target: UART_BRAM_Interfacing.elf
 Invoking: ARM v7 Print Size
 arm-none-eabi-size UART_BRAM_Interfacing.elf  |tee "UART_BRAM_Interfacing.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  22644	   1216	  22664	  46524	   b5bc	UART_BRAM_Interfacing.elf
+  22868	   1216	  22664	  46748	   b69c	UART_BRAM_Interfacing.elf
 Finished building: UART_BRAM_Interfacing.elf.size
  
 
-11:25:14 Build Finished (took 268ms)
+11:45:14 Build Finished (took 268ms)
 

@@ -12,6 +12,8 @@ XBram Bram;
 XBram_Config *ConfigPtr;
 int initBRAM();
 
+#define MAX_LIST_SIZE 128 // Define the maximum size of the list
+
 int main()
 {
     init_platform();
@@ -22,25 +24,57 @@ int main()
     int addr_value = 1;
     char prev_value = MYMEM_u(addr_value); // Store the initial value
     char curr_value;
+    char value_list[MAX_LIST_SIZE]; // List to store memory values
+    int list_index = 0; // Current index in the list
 
     while(1)
     {
-        curr_value = MYMEM_u(addr_value); // Get the current value
+        curr_value = MYMEM_u(addr_value); // Read from the same address
 
-        // Compare the current value with the previous value
+        // Only update if the value is different from the previous one
         if (curr_value != prev_value)
         {
-            xil_printf("Memory value %c for address %d.\r\n", curr_value, addr_value);
             prev_value = curr_value; // Update the previous value
+
+            // If the current value is the Enter key (ASCII 13)
+            if (curr_value == 13)
+            {
+                xil_printf("End detected. Printing the message:\r\n");
+
+                // Print the whole list
+                for (int i = 0; i < list_index; i++)
+                {
+                    xil_printf("%c", value_list[i]);
+                }
+                xil_printf("\r\n");
+
+                // Reset the list and index
+                list_index = 0;
+            }
+            else
+            {
+                // Save the value in the list
+                if (list_index < MAX_LIST_SIZE)
+                {
+                    value_list[list_index++] = curr_value;
+                }
+                else
+                {
+                    xil_printf("List is full. Can't store more values.\r\n");
+                    curr_value = 13;
+                }
+
+                // Print the value immediately (optional)
+                xil_printf("Memory value saved to message list.\r\n");
+            }
         }
 
-        sleep(1);
+        sleep(1); // Delay between reads
     }
 
     cleanup_platform();
     return 0;
 }
-
 
 /*
  * This function initializes the BRAM driver. If an error occurs then exit
